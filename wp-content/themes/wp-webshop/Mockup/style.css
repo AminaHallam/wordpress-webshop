@@ -1,0 +1,225 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+header {
+    display: flex;
+    flex-wrap: wrap;
+    height: none;
+    flex-grow: 5;
+    color: rgb(109, 109, 109);
+}
+
+.logoHeader img {
+    max-width: 250px;
+}
+
+.divContainer {
+    font-family: 'Times New Roman', Times, serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    font-size: larger;
+}
+
+.menu {
+    color: black;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-self: center;
+    justify-content: center;
+    padding: 10px;
+    
+}
+
+.topnav {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    background-color: white;
+}
+
+.icons {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    width: 30px;
+    height: 30px;
+}
+
+.iconDiv {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    margin-bottom: 20px;
+    margin-left: 15px;
+}
+
+
+
+/* dropmenu */
+
+.dropbtn {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #9bb4b003;
+    color: black;
+    padding: 16px;
+    font-size: large;
+    display: flex;
+    border: none;
+    cursor: pointer;
+    text-decoration: underline;
+  }
+
+  .dropbtn:hover {
+    background-color: #ad9f6103;
+  }
+
+  .dropdown {
+    position: relative;
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    
+    overflow: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .dropdown a:hover {background-color: #ddd;}
+  
+  .show {display: block;}
+
+
+  .sökInput {
+      margin-top: 40px;
+      display: flex;
+      justify-content: right;
+      margin-right: 30px;
+  }
+
+  .sökButton {
+      background-color: #caa87f;
+      border-radius: 6px;
+  }
+
+  .rubrik {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+
+  .bigBox {
+    height: 800px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    border: 1px solid black;
+    padding: 30px;
+    border-radius: 25px;
+    margin: 20px; 
+    margin-top: 50px;
+    margin-bottom: 50px; 
+    gap:40px; 
+    justify-content: center;
+    
+  }
+
+  .litleBox {
+    width: 250px;
+    height: 300px;
+    border: 1px solid black;
+    padding: 10px;
+    border-radius: 25px;
+    align-items: center;
+  }
+
+  .litleContainer {
+      width: 230px; 
+      height: auto;
+  }
+
+  .litleContainerLast {
+      width: 180px;
+      height: auto;
+      display: flex;
+      justify-content: center;
+      margin-top: 22px; 
+      margin-left: 20px;
+  }
+
+
+  /* HamburgerMeny */ 
+
+ 
+
+@media screen and (max-width:1000px) {
+    header {
+        justify-content: center;
+    }
+
+    .topnav {
+        font-size: 15px;
+    }
+
+    .dropbtn {
+        font-size: 17px;
+    }
+
+
+}
+
+@media screen and (max-width:750px) {
+    .topnav {
+        font-size: 13px;
+    }
+
+    .iconDiv {
+        font-size: 10px;
+    }
+
+    .dropbtn {
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width:600px) {
+    .topnav {
+        font-size: 10px;
+    }
+
+    .iconDiv {
+        font-size: 10px;
+    }
+
+    .dropbtn {
+        font-size: 10px;
+    }
+
+    .divContainer {
+        gap: 5px; 
+    }
+
+}
