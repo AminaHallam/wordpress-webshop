@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8" />
+	<title><?php wp_title(' '); ?></title>
+	
+    <?php wp_head(); ?>
+</head>
+<body>
+
+	<div class="topnav">
+
+		<header id="header">
+        <div class="logo">
+            <span class="logoHeader"><a href="<?php echo get_template_directory_uri().'/index.html';?>"><img class="logo" src="<?php echo get_template_directory_uri().'/img/logo.png';?>"></a></span>
+        </div>
+			<div class="divContainer">
+				<div class="row">
+					<div class="col-xs-8 col-sm-6">
+
+
+                    </div>
+					
+
+                </div>
+            </div>
+        </header>          
+
+                    <nav id="nav">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-xs-12">
+
+                                    <!-- Hämtar och skriver ut lämplig menu  -->
+                                    <?php wp_nav_menu(array(
+                                        'theme_location' => 
+                                        'huvudmeny'
+                                    ));
+                                    ?>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    </nav>
+                    <hr style="width:90%;margin: auto;">
+
+                
+        
