@@ -69,9 +69,7 @@ footer {
 
 #sidebar ul {
     list-style: none;
-    height: 600px;
     margin-top: 25px; 
-    gap:10px; 
     
 }
 
@@ -95,6 +93,7 @@ footer {
     border-bottom: solid 1px #ccc;
     font-weight: bold;
 }
+
 
 .row {
     display: flex;
