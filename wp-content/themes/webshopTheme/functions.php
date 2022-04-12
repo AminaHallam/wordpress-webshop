@@ -10,6 +10,8 @@ add_theme_support('widgets');
 
 add_theme_support('menus'); 
 
+/* add_theme_support( 'woocommerce' ); */
+
 
 // Registrerar och lägger till olika meny
 
@@ -18,7 +20,41 @@ add_action('after_setup_theme', 'my_function');
 function my_function() {
     register_nav_menu('huvudmeny', 'Huvud meny'); 
     register_nav_menu('footermeny', 'footer meny'); 
+    register_nav_menu('sidomeny', 'sidmenu'); 
 }
+
+register_sidebar(
+    [
+        'name' => 'widget 1', 
+        'id' => 'widget-footer',
+        'description' => 'Widget till footer.'
+        
+    ]
+); 
+
+register_sidebar(
+    [
+        'name' => 'widget 2',
+        'id' => 'widget-footer2',
+        'description' => 'widget till footer 2.'
+    ]
+);
+
+register_sidebar(
+    [
+        'name' => 'widget 3',
+        'id' => 'widget-socialmedia',
+        'description' => 'widget för social media.'
+    ]
+);
+
+register_sidebar(
+    [
+        'name' => 'widget 4',
+        'id' => 'widget-sidmenu',
+        'description' => 'widget för sidomeny.'
+    ]
+);
 
 
 ?> 
