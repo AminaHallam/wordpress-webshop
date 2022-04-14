@@ -9,9 +9,9 @@ function my_scripts_css() {
     wp_register_style('productpage', get_template_directory_uri().'/css/productpage.css'); 
     wp_register_style('fontawesome', get_template_directory_uri().'/css/font-awesome.css'); 
     
-    wp_register_script('bootstrap', get_template_directory_uri().'/js/jquery.js'); 
-    wp_register_script('main', get_template_directory_uri().'/js/main.js'); 
-    wp_register_script('main', get_template_directory_uri().'/js/script.js');
+    wp_register_script('bootstrap', get_template_directory_uri().'/js/jquery.js', [], false, true); 
+    wp_register_script('main', get_template_directory_uri().'/js/main.js', [], false, true); 
+    wp_register_script('main', get_template_directory_uri().'/js/script.js', [], false, true);
     
     wp_enqueue_style('bootstrap');
     wp_enqueue_style('style');

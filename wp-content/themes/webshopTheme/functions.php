@@ -13,6 +13,15 @@ add_theme_support('menus');
 /* add_theme_support( 'woocommerce' ); */
 
 
+
+// Remove Default Sorting 
+
+remove_action('woocommerce_before_shop_loop', 'woocommerce_catalog_ordering', 30); 
+
+remove_action('woocommerce_before_shop_loop', 'woocommerce_result_count', 20); 
+
+
+
 // Registrerar och lägger till olika meny
 
 add_action('after_setup_theme', 'my_function'); 

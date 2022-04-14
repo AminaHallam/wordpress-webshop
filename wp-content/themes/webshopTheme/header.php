@@ -2,7 +2,9 @@
 <html>
 <head>
 	<meta charset="UTF-8" />
-	<title><?php wp_title(' '); ?></title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title><?php wp_title(' '); ?></title>
 	
     <?php wp_head(); ?>
 </head>
@@ -24,7 +26,9 @@
 
                 </div>
             </div>
-        </header>          
+        </header>  
+
+        <hr style="width:70%;margin: auto;">        
 
                     <nav id="nav">
                         <div class="container">
@@ -42,7 +46,7 @@
                             </div>
                         </div>
                     </nav>
-                    <hr style="width:90%;margin: auto;">
+                    <hr style="width:70%;margin: auto;">
 
                 
         
