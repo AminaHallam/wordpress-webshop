@@ -1,16 +1,10 @@
-(function($){
 
-	// Menu icon
+let hamburger = document.querySelector(".hamburgerMenu");
 
-	$('.menu-icon').click(function(){
-		$(this).toggleClass('fa-bars fa-close');
-		$('#nav').slideToggle();
-	});
+    
+    hamburger.addEventListener("click", () => {
+        hamburger.classList.toggle("active");
+        menu.classList.toggle("active");
+    
+    });
 
-	// Search icon
-
-	$('.fa-search').click(function(){
-		$('.mobile-search').slideToggle();
-	});
-
-})(jQuery);

@@ -10,7 +10,7 @@ add_theme_support('widgets');
 
 add_theme_support('menus'); 
 
-/* add_theme_support( 'woocommerce' ); */
+add_theme_support( 'woocommerce' );
 
 
 
@@ -29,7 +29,7 @@ add_action('after_setup_theme', 'my_function');
 function my_function() {
     register_nav_menu('huvudmeny', 'Huvud meny'); 
     register_nav_menu('footermeny', 'footer meny'); 
-    register_nav_menu('sidomeny', 'sidmenu'); 
+    /* register_nav_menu('sidomeny', 'sidmenu');  */
 }
 
 register_sidebar(
@@ -57,13 +57,13 @@ register_sidebar(
     ]
 );
 
-register_sidebar(
+/* register_sidebar(
     [
         'name' => 'widget 4',
         'id' => 'widget-sidmenu',
         'description' => 'widget för sidomeny.'
     ]
-);
+); */
 
 
 ?> 

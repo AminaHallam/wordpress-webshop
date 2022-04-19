@@ -10,7 +10,6 @@ function my_scripts_css() {
     wp_register_style('fontawesome', get_template_directory_uri().'/css/font-awesome.css'); 
     
     wp_register_script('bootstrap', get_template_directory_uri().'/js/jquery.js', [], false, true); 
-    wp_register_script('main', get_template_directory_uri().'/js/main.js', [], false, true); 
     wp_register_script('main', get_template_directory_uri().'/js/script.js', [], false, true);
     
     wp_enqueue_style('bootstrap');
@@ -20,7 +19,6 @@ function my_scripts_css() {
 
     wp_enqueue_script('jquery');
     wp_enqueue_script('script');
-    wp_enqueue_script('main');
 
 
 }

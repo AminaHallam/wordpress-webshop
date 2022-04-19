@@ -3,21 +3,7 @@ get_header(); ?>
 
 <main> 
 
-<aside id="secondary" class="col-xs-12 col-md-3">
-							<div id="sidebar">
 
-								<ul role="navigation">
-									<li class="pagenav">
-
-										<?php 
-										/* Hämtar lämplig widget  */
-										dynamic_sidebar('widget-sidmenu');
-										?>
-									</li>
-								</ul>
-
-							</div>
-</aside>
 
 <?php while(have_posts()) {
     the_post(); ?> 

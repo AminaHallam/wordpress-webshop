@@ -95,16 +95,9 @@ footer {
 }
 
 
-.row {
-    display: flex;
-
-}
-
 .text {
-    width: 100%;
-    padding: 20px;
-    margin-top:50px; 
-    margin-bottom: 40px;
+    margin-top:10px; 
+    margin-bottom: 20px;
 }
 
 .logoHeader img {
@@ -154,68 +147,277 @@ footer {
     margin-left: 15px;
 }
 
-
-
-/* dropmenu */
-
-.dropbtn {
-    font-family: 'Times New Roman', Times, serif;
-    background-color: #9bb4b003;
-    color: black;
-    padding: 16px;
-    font-size: large;
+#product-12 {
     display: flex;
-    border: none;
-    cursor: pointer;
-    text-decoration: underline;
-  }
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-left: 40px;
+    margin-right: 40px;
+}
 
-  .dropbtn:hover {
-    background-color: #ad9f6103;
-  }
+#product-12 h1 {
+    font-size: 20px;
+}
 
-  .dropdown {
-    position: relative;
-    display: inline-block;
-    justify-content: center;
+#product-76 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+#product-76 h1 {
+    font-size: 20px;
+}
+
+#product-44 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+#product-44 h1 {
+    font-size: 20px;
+}
+
+#product-82 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+#product-82 h1 {
+    font-size: 20px;
+}
+
+#product-56 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+#product-56 h1 {
+    font-size: 20px;
+}
+
+#product-38 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+#product-38 h1 {
+    font-size: 20px;
+}
+
+#product-70 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+#product-70 h1 {
+    font-size: 20px;
+}
+
+#product-19 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+#product-19 h1 {
+    font-size: 20px;
+}
+
+#product-101 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+#product-101 h1 {
+    font-size: 20px;
+}
+
+#product-50 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+#product-50 h1 {
+    font-size: 20px;
+}
+
+#product-32 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+#product-32 h1 {
+    font-size: 20px;
+}
+
+#product-95 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+#product-95 h1 {
+    font-size: 20px;
+}
+
+#product-62 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+#product-62 h1 {
+    font-size: 20px;
+}
+
+#product-26 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+#product-26 h1 {
+    font-size: 20px;
+}
+
+#product-89 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+#product-89 h1 {
+    font-size: 20px;
+}
+
+.input-text.qty.text {
+    width: 30px;
+}
+
+.woocommerce-breadcrumb {
+    font-size: 15px;
+    display: flex;
+    margin-left: 40px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.entry-summary {
+    display: flex;
+    flex-direction: column;
     align-items: center;
-  }
-  
-  .dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: #f1f1f1;
-    
-    overflow: auto;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
-  }
-  
-  .dropdown-content a {
-    color: black;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
+    gap: 10px; 
+}
+.wc-tabs {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    text-align: initial;
+    padding-left: 0;
+    width: 250px;
+    gap: 20px; 
+}
+
+.description_tab {
+    border-bottom: solid 1px #ccc;
+}
+
+.additional_information_tab {
+    border-bottom: solid 1px #ccc;
+}
+
+.reviews_tab {
+    border-bottom: solid 1px #ccc;
+}
+
+.wc-tabs-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 15px; 
+    margin-left: 40px;
+    margin-right: 40px;
+    justify-content: center;
+}
+
+#tab-description {
+    text-align: initial;
+}
+
+
+.columns-4 {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    gap: 40px; 
+    margin: 40px; 
+    justify-content: center;
+}
+
+.columns-3 {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    gap: 40px; 
+    margin: 40px; 
+    justify-content: center;
+}
+
+.product {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+}
+
+.page-numbers {
     display: flex;
     justify-content: center;
-  }
-  
-  .dropdown a:hover {background-color: #ddd;}
-  
-  .show {display: block;}
+    list-style: none;
+    font-size: 15px;
+    font-weight: bold;
+    margin: 20px; 
+}
 
+.woocommerce-loop-product__title {
+    font-size: 20px;
+}
 
-  .sökInput {
-      margin-top: 40px;
-      display: flex;
-      justify-content: right;
-      margin-right: 30px;
-  }
-
-  .sökButton {
-      background-color: #caa87f;
-      border-radius: 6px;
-  }
 
   .rubrik {
       display: flex;
@@ -265,6 +467,21 @@ footer {
 
   /* HamburgerMeny */ 
 
+  .hamburgerMenu {
+    display: none;
+    cursor: pointer;       
+}
+
+.bar {
+    display: block;
+    width: 35px;
+    height: 2px;
+    margin: 7px auto;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    background-color: black;
+}
+
  
 
 @media screen and (max-width:1000px) {
@@ -283,6 +500,29 @@ footer {
 
 }
 
+@media screen and (max-width:800px) {
+
+    .hamburgerMenu {
+        display: block;
+        padding-left: 30px;
+    }
+
+    .hamburgerMenu.active .bar:nth-child(2) {
+        opacity: 0;
+    }
+    .hamburgerMenu.active .bar:nth-child(1) {
+        transform: translateY(10px) rotate(50deg)
+    }
+    .hamburgerMenu.active .bar:nth-child(3) {
+        transform: translateY(-8px) rotate(-55deg);
+    }
+
+    .containerHeader {
+        align-items: center;
+    }
+
+}
+
 @media screen and (max-width:750px) {
     .topnav {
         font-size: 13px;
@@ -292,9 +532,6 @@ footer {
         font-size: 10px;
     }
 
-    .dropbtn {
-        font-size: 15px;
-    }
 }
 
 @media screen and (max-width:600px) {

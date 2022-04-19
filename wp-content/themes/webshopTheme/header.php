@@ -28,22 +28,32 @@
             </div>
         </header>  
 
-        <hr style="width:70%;margin: auto;">        
+        <hr style="width:70%;margin: auto;">      
+            
+                    <div class="col-xs-4 text-right visible-xs">
+						<div class="mobile-menu-wrap" class="hamburgerMenu">
+                            <div class="bar">
+                                <i class="fa fa-bars menu-icon"></i>
+
+                            </div>
+							
+						</div>
+					</div>
 
                     <nav id="nav">
                         <div class="container">
-                            <div class="row">
-                                <div class="col-xs-12">
+                                <div>
 
-                                    <!-- Hämtar och skriver ut lämplig menu  -->
-                                    <?php wp_nav_menu(array(
-                                        'theme_location' => 
-                                        'huvudmeny'
-                                    ));
-                                    ?>
-                                    
+                                    <div class="col-xs-12">
+    
+                                        <?php wp_nav_menu(array(
+                                            'theme_location' => 
+                                            'huvudmeny'
+                                        ));
+                                        ?>
+                                        
+                                    </div>
                                 </div>
-                            </div>
                         </div>
                     </nav>
                     <hr style="width:70%;margin: auto;">
