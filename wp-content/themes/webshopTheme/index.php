@@ -19,7 +19,7 @@ get_header(); ?>
                         <?php the_post_thumbnail(); ?> 
                         
                         <div class="text">
-                            <h1>
+                            <h1 class="blogRubrik">
                                 <?php the_title(); ?> 
                             </h1> 
                             

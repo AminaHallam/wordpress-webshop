@@ -3,18 +3,19 @@ get_header();
 /* hamta header */
 ?>
 		<section>
-				<div class="container">
+			<div class="container">
+				<div class="pagination">
                     
 					<div class="row">
 						<div id="primary" class="col-xs-12 col-md-9">
-							<h1>Blogg</h1>
+							<h1 class="blogRubrik">Bloggsida</h1>
                             <?php
 							/* loopar igenom alla posts */
                             while( have_posts()){
 								
                                 the_post();
                             ?>
-							<article>
+							<article class="blogDiv">
 								<img src="
 								<?php 
 								/* img url */
@@ -44,10 +45,17 @@ get_header();
                             ?>
 		
 						</div>
+
 					</div>
+					<nav class="navigation">
+							
+						<?php the_posts_pagination( array( 'mid_size' => 3 ) ); ?>
+					</nav>
+
 				</div>
-			</section>
-            <?php
-			/* get footer */
-            get_footer();
-            ?>
+			</div>
+		</section>
+		<?php
+		/* get footer */
+		get_footer();
+		?>

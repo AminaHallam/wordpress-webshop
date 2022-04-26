@@ -34,12 +34,26 @@ footer {
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-    height: 250px;
     list-style: none;
     left: 0;
     bottom: 0;
     width: 100%;
-    background-color: moccasin;
+    background-color: #f0eee873;
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+}
+
+.blogDiv {
+    margin: 40px; 
+    padding: 20px;
+}
+
+.blogRubrik {
+    margin: 50px; 
+
 }
 
 #menu-footermeny {
@@ -104,6 +118,12 @@ footer {
     margin-bottom: 20px;
 }
 
+.textVillkor {
+    margin-top:10px; 
+    margin-bottom: 20px;
+    padding: 70px;
+}
+
 .logoHeader img {
     max-width: 250px;
 }
@@ -130,6 +150,25 @@ footer {
     
 }
 
+.pagination {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+}
+
+.nav-links {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.firstPageShop {
+    display: flex;
+    gap: 50px;
+    margin: 40px; 
+    justify-content: center;
+}
+
 .topnav {
     
     background-color: white;
@@ -153,6 +192,7 @@ footer {
 
 #product-12 {
     display: flex;
+    justify-content: center;
     flex-direction: row;
     flex-wrap: wrap;
     margin-left: 40px;
@@ -165,6 +205,7 @@ footer {
 
 #product-76 {
     display: flex;
+    justify-content: center;
     flex-direction: row;
     flex-wrap: wrap;
     margin-left: 40px;
@@ -177,6 +218,7 @@ footer {
 
 #product-44 {
     display: flex;
+    justify-content: center;
     flex-direction: row;
     flex-wrap: wrap;
     margin-left: 40px;
@@ -189,6 +231,7 @@ footer {
 
 #product-82 {
     display: flex;
+    justify-content: center;
     flex-direction: row;
     flex-wrap: wrap;
     margin-left: 40px;
@@ -201,6 +244,7 @@ footer {
 
 #product-56 {
     display: flex;
+    justify-content: center;
     flex-direction: row;
     flex-wrap: wrap;
     margin-left: 40px;
@@ -213,6 +257,7 @@ footer {
 
 #product-38 {
     display: flex;
+    justify-content: center;
     flex-direction: row;
     flex-wrap: wrap;
     margin-left: 40px;
@@ -225,6 +270,7 @@ footer {
 
 #product-70 {
     display: flex;
+    justify-content: center;
     flex-direction: row;
     flex-wrap: wrap;
     margin-left: 40px;
@@ -237,6 +283,7 @@ footer {
 
 #product-19 {
     display: flex;
+    justify-content: center;
     flex-direction: row;
     flex-wrap: wrap;
     margin-left: 40px;
@@ -249,6 +296,7 @@ footer {
 
 #product-101 {
     display: flex;
+    justify-content: center;
     flex-direction: row;
     flex-wrap: wrap;
     margin-left: 40px;
@@ -261,6 +309,7 @@ footer {
 
 #product-50 {
     display: flex;
+    justify-content: center;
     flex-direction: row;
     flex-wrap: wrap;
     margin-left: 40px;
@@ -273,6 +322,7 @@ footer {
 
 #product-32 {
     display: flex;
+    justify-content: center;
     flex-direction: row;
     flex-wrap: wrap;
     margin-left: 40px;
@@ -285,6 +335,7 @@ footer {
 
 #product-95 {
     display: flex;
+    justify-content: center;
     flex-direction: row;
     flex-wrap: wrap;
     margin-left: 40px;
@@ -297,6 +348,7 @@ footer {
 
 #product-62 {
     display: flex;
+    justify-content: center;
     flex-direction: row;
     flex-wrap: wrap;
     margin-left: 40px;
@@ -309,6 +361,7 @@ footer {
 
 #product-26 {
     display: flex;
+    justify-content: center;
     flex-direction: row;
     flex-wrap: wrap;
     margin-left: 40px;
@@ -322,6 +375,7 @@ footer {
 #product-89 {
     display: flex;
     flex-direction: row;
+    justify-content: center;
     flex-wrap: wrap;
     margin-left: 40px;
     margin-right: 40px;
@@ -338,7 +392,7 @@ footer {
 .woocommerce-breadcrumb {
     font-size: 15px;
     display: flex;
-    margin-left: 40px;
+    margin-left: 15%;
     margin-top: 25px;
     margin-bottom: 25px;
 }

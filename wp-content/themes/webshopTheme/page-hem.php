@@ -13,10 +13,10 @@ get_header(); ?>
                 <div class="row">
                     <div class="col-xs-12">
                         <div class="text">
-						<img src="<?php the_post_thumbnail_url()?>" />
-                            <h1>
-							<a href="<?php the_permalink(); ?>"><?php the_title(); ?> 
-                            </h1> 
+						 <?php the_post_thumbnail(); ?>
+
+
+                           
                             <p><?php the_content(); ?></p>
 
                         </div>
