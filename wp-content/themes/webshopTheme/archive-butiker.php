@@ -4,87 +4,33 @@ get_header(); ?>
 
 <main> 
 
-    <?php 
     
-    if(have_posts()) {
-    while(have_posts()) {
-        the_post(); ?> 
-
-        <section>
-
-            <div>
-                <div class="container">
-                    <div class="row">
-                        <div class="col-xs-12">
-                            
-                            <div class="text">
-                                
-
-                                    <h1> <?php the_title(); ?>  </h1>
-                                    <br>
-
-                                    <div>
-                                        <h3>Adress: </h3>
-                                        <?php $butik_value = get_field( 'titel'); 
-                                            if($butik_value ): 
-                                                
-                                            echo $butik_value; 
-                                            
-
-                                            endif; ?>
-
-
-                                    </div>
-                                
-
-                                    <div>
-                                        <h3>Telefonnummer: </h3>
-
-                                    <?php 
-                                    $telefonnummer = get_field( 'telefonnummer'); 
-                                    if($telefonnummer ): 
-                                        
-                                    echo $telefonnummer; 
-                                    
-
-                                    endif; ?> 
-
-                                    </div>
-
-                                    <div>
-                                    
-                                        <h3>E-post: </h3>
-                                    
-                                    <?php 
-                                        $ePost = get_field( 'e-post'); 
-                                        if($ePost ): 
-                                            
-                                        echo $ePost; 
-                                        
-                                    
-                                        endif;
-                                    
-                                        ?> 
-                                    </div>
-                                    
-
-                                    <div>
-                                        <h3>Karta: </h3>
-                                    <?php 
-                                        $karta = get_field( 'address'); 
-                                        if($karta ): 
-                                            
-                                        echo $karta; 
-                                        
     
-                                        endif;
-    
-                                        ?> 
+    <section>
+        
+        <div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-12">
+                        
+                        <h1> Våra fysiska butiker </h1>
+                        
+                        <div class="firstPageShop">
+                            <?php 
+                            if(have_posts()) {
 
-                                    </div>
-
-
+                                while(have_posts()) {
+                                    the_post(); ?> 
                                 
+                                    <a href="<?php the_permalink(); ?>"> <h2><?php the_title(); ?></h2> </a>
+
+
+                                    <a href="<?php the_permalink(); ?>"> <?php the_post_thumbnail(); ?> </a>
+                                
+                                        
+                            <?php } 
+                                
+                            }?>
                                 
 
                             </div>
@@ -97,9 +43,6 @@ get_header(); ?>
 
         </section>
 
-    <?php } 
-    
-     }?>
 
 </main>
 

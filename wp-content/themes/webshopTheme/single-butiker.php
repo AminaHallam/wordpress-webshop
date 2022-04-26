@@ -19,11 +19,11 @@ get_header(); ?>
                             <div class="text">
                                 
 
-                                    <h1> Våra butiker i Göteborg: </h1>
+                                    
                                     <br>
 
                                     <div>
-                                        <h3>Adress: </h3>
+                                        <h2> 
                                         <?php $butik_value = get_field( 'titel'); 
                                             if($butik_value ): 
                                                 
@@ -31,44 +31,86 @@ get_header(); ?>
                                             
 
                                             endif; ?>
+                                        </h2>
 
+                                    </div>
+
+                                    <div>
+
+                                    <?php 
+                                    $butiksbild = get_field( 'butiksbild'); 
+                                    
+                                    if($butiksbild ): 
+                                        echo $butiksbild;
+                        
+
+                                    endif; ?> 
+
+                                    </div>
+                                    <br>
+                                    <div>
+
+                                    <?php 
+                                    $adress = get_field( 'adress'); 
+                                    if($adress ): ?> 
+                                        
+                                    <h4>Adress: <?php echo $adress; ?></h4>
+                                    
+                                    <?php 
+                                    endif; ?> 
 
                                     </div>
                                 
-
+                                    <br>
                                     <div>
-                                        <h3>Telefonnummer: </h3>
+                                        
 
                                     <?php 
                                     $telefonnummer = get_field( 'telefonnummer'); 
-                                    if($telefonnummer ): 
+                                    if($telefonnummer ): ?> 
+                                     
+                                    <h4>Telefonnummer: <?php echo $telefonnummer; ?></h4>
+                                      
+                                    
+                                    <?php 
+                                    endif; ?> 
+
+                                    </div>
+                                    <br>
+                                    <div>
+                                    
+                                    <?php 
+                                        $ePost = get_field( 'e-post'); 
+                                        if($ePost ): ?> 
                                         
-                                    echo $telefonnummer; 
+                                        <h4>E-post:<a href=" <?php echo $ePost; ?> "> <?php echo $ePost; ?> </a></h4> 
+                                        
+                                        
+                                        <?php 
+                                        endif;
+                                    
+                                        ?> 
+                                    </div>
+
+                                    <div>
+                                        <br>
+                                        <h3>Öppettider: </h3><br>
+
+                                    <?php 
+                                    $oppettider = get_field( 'oppettider'); 
+                                    if($oppettider ): 
+                                        
+                                    echo nl2br($oppettider); 
                                     
 
                                     endif; ?> 
 
                                     </div>
-
-                                    <div>
-                                    
-                                        <h3>E-post: </h3>
-                                    
-                                    <?php 
-                                        $ePost = get_field( 'e-post'); 
-                                        if($ePost ): 
-                                            
-                                        echo $ePost; 
-                                        
-                                    
-                                        endif;
-                                    
-                                        ?> 
-                                    </div>
                                     
 
                                     <div>
-                                        <h3>Karta: </h3>
+                                        <br>
+                                        <h3>Hitta hit: </h3><br>
                                     <?php 
                                         $karta = get_field( 'address'); 
                                         if($karta ): 

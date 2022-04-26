@@ -15,9 +15,10 @@ function registrera_butik() {
         'show_in_rest' => true,
         'capability_type' => 'post',
         'post_type' => 'location',
-        'supports' => array( 'title', 'editor', 'excerpt', 'custom-fields', 'thumbnail','page-attributes' ),
+        'supports' => array( 'title', 'editor', 'excerpt', 'thumbnail' ),
         'has_archive' => true, 
-        'hierarchical' => false
+        'menu-icon' => 'dashicons-store', 
+        'hierarchical' => true
         
     ];
 

@@ -29,7 +29,7 @@ add_action('after_setup_theme', 'my_function');
 function my_function() {
     register_nav_menu('huvudmeny', 'Huvud meny'); 
     register_nav_menu('footermeny', 'footer meny'); 
-    /* register_nav_menu('sidomeny', 'sidmenu');  */
+    register_nav_menu('sidomeny', 'sidmenu');
 }
 
 register_sidebar(
@@ -57,13 +57,24 @@ register_sidebar(
     ]
 );
 
-/* register_sidebar(
+register_sidebar(
     [
         'name' => 'widget 4',
         'id' => 'widget-sidmenu',
         'description' => 'widget för sidomeny.'
     ]
-); */
+);
+
+
+// include google maps
+
+/* function fysiskabutiker($api) {
+    $api['API_KEY'] = 'AIzaSyBLdM_yflptj7yLYVR5H5cVrNOSePYuOAA'; 
+    return $api;
+
+}
+
+add_filter('acf/fields/google_map/api', 'fysiskabutiker');  */
 
 
 ?> 

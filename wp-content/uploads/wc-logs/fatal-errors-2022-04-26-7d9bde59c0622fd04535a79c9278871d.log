@@ -1,0 +1,13 @@
+2022-04-26T12:45:16+00:00 CRITICAL syntax error, unexpected token "endif" i /Applications/MAMP/htdocs/wordpress-webshop/wp-content/themes/webshopTheme/single-butiker.php på rad 54
+
+2022-04-26T13:07:56+00:00 CRITICAL syntax error, unexpected token "}", expecting "elseif" or "else" or "endif" i /Applications/MAMP/htdocs/wordpress-webshop/wp-content/themes/webshopTheme/single-butiker.php på rad 144
+
+2022-04-26T16:12:29+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function wp_get_attachment_image(), 0 passed in /Applications/MAMP/htdocs/wordpress-webshop/wp-content/themes/webshopTheme/archive-butiker.php on line 28 and at least 1 expected in /Applications/MAMP/htdocs/wordpress-webshop/wp-includes/media.php:1027
+Stack trace:
+#0 /Applications/MAMP/htdocs/wordpress-webshop/wp-content/themes/webshopTheme/archive-butiker.php(28): wp_get_attachment_image()
+#1 /Applications/MAMP/htdocs/wordpress-webshop/wp-includes/template-loader.php(106): include('/Applications/M...')
+#2 /Applications/MAMP/htdocs/wordpress-webshop/wp-blog-header.php(19): require_once('/Applications/M...')
+#3 /Applications/MAMP/htdocs/wordpress-webshop/index.php(17): require('/Applications/M...')
+#4 {main}
+  thrown i /Applications/MAMP/htdocs/wordpress-webshop/wp-includes/media.php på rad 1027
+
