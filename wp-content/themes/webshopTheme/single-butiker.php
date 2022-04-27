@@ -16,14 +16,14 @@ get_header(); ?>
                     <div class="row">
                         <div class="col-xs-12">
                             
-                            <div class="text">
+                            <div class="cptText">
                                 
 
                                     
                                     <br>
 
                                     <div>
-                                        <h2> 
+                                        <h1> 
                                         <?php $butik_value = get_field( 'titel'); 
                                             if($butik_value ): 
                                                 
@@ -31,18 +31,32 @@ get_header(); ?>
                                             
 
                                             endif; ?>
-                                        </h2>
+                                        </h1>
 
                                     </div>
 
                                     <div>
+                                        <?php 
+
+                                            the_content(); 
+
+                                        ?> 
+                                    </div>
+
+                                    <br>
+
+                                    <div class="cptImgDiv">
 
                                     <?php 
                                     $butiksbild = get_field( 'butiksbild'); 
                                     
-                                    if($butiksbild ): 
-                                        echo $butiksbild;
+                                    if($butiksbild ): ?> 
+                                    <div class="cptImg">
+                                        <img src=" <?php echo $butiksbild; ?> " alt="Butikens bild">
+
+                                    </div>
                         
+                                    <?php
 
                                     endif; ?> 
 
@@ -106,23 +120,8 @@ get_header(); ?>
                                     endif; ?> 
 
                                     </div>
-                                    
-
-                                    <div>
-                                        <br>
-                                        <h3>Hitta hit: </h3><br>
-                                    <?php 
-                                        $karta = get_field( 'address'); 
-                                        if($karta ): 
-                                            
-                                        echo $karta; 
-                                        
-    
-                                        endif;
-    
-                                        ?> 
-
-                                    </div>
+                                    <br>
+                                    <br>
 
 
                                 
