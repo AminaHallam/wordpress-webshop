@@ -22,10 +22,27 @@ get_header(); ?>
                                 while(have_posts()) {
                                     the_post(); ?> 
                                 
+                                    <div class="firstPageCpt">   
+
                                     <a href="<?php the_permalink(); ?>"> <h2><?php the_title(); ?></h2> </a>
+                                    
 
+                                    <?php 
+                                    $butiksbild = get_field( 'butiksbild'); 
+                                    
+                                    if($butiksbild ): ?> 
+                                    <div class="cptImg">
+                                    <a href="<?php the_permalink(); ?>">  <img src=" <?php echo $butiksbild; ?> " alt="Butikens bild"></a>
 
-                                    <a href="<?php the_permalink(); ?>"> <?php the_post_thumbnail(); ?> </a>
+                                    </div>
+                        
+                                    <?php
+
+                                    endif; ?> 
+
+                                    </div>
+
+                                    
                                 
                                         
                             <?php } 

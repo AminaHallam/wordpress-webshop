@@ -167,6 +167,31 @@ footer {
     gap: 50px;
     margin: 40px; 
     justify-content: center;
+    flex-direction: column;
+}
+
+.firstPageCpt {
+    display: flex;
+    flex-direction: column;
+    gap: 40px; 
+}
+
+.cptText {
+    margin: 50px; 
+    text-align: center;
+    box-shadow: 5px 10px #888888;
+    border: 1px solid black;
+}
+
+
+iframe {
+    width: 70%;
+}
+
+.cptImgDiv {
+    display: flex;
+    justify-content: center;
+
 }
 
 .topnav {
@@ -635,4 +660,19 @@ img {
     height: 300px;
     display: flow-root;
     flex-wrap: wrap;
+}
+
+@media screen and (max-width:480px) {
+    .row {
+        flex-wrap: wrap;
+    }
+
+    h1 {
+        font-size: 25px;
+    }
+
+    h2 {
+        font-size: 15px;
+    }
+
 }
