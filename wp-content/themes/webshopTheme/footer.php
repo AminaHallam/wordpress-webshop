@@ -1,5 +1,5 @@
 
-<hr style="width:100%;margin: auto;">
+<hr style="width:90%;margin: auto;">
 <footer id="footer">
 			<div class="container">
 				<div class="row top">

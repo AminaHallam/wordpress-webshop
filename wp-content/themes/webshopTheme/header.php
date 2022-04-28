@@ -31,11 +31,7 @@
         <hr style="width:70%;margin: auto;">      
             
                     <div class="col-xs-4 text-right visible-xs">
-						<div class="mobile-menu-wrap" class="hamburgerMenu">
-                            <div class="bar">
-                                <i class="fa fa-bars menu-icon"></i>
-
-                            </div>
+						<div class="mobile-menu-wrap">
 							
 						</div>
 					</div>
