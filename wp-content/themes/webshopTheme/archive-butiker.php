@@ -24,21 +24,23 @@ get_header(); ?>
                                 
                                     <div class="firstPageCpt">   
 
-                                    <a href="<?php the_permalink(); ?>"> <h2><?php the_title(); ?></h2> </a>
+                                        <a href="<?php the_permalink(); ?>"> <h2><?php the_title(); ?></h2> </a>
                                     
+                                        <div>
+                                        <?php 
+                                        $butiksbild = get_field( 'butiksbild'); 
+                                        
+                                        if($butiksbild ): ?> 
+                                        <div>
+                                        <a href="<?php the_permalink(); ?>">  <img class="cptImg" src=" <?php echo $butiksbild; ?> " alt="Butikens bild"></a>
 
-                                    <?php 
-                                    $butiksbild = get_field( 'butiksbild'); 
-                                    
-                                    if($butiksbild ): ?> 
-                                    <div class="cptImg">
-                                    <a href="<?php the_permalink(); ?>">  <img src=" <?php echo $butiksbild; ?> " alt="Butikens bild"></a>
+                                        </div>
+                            
+                                        <?php
 
-                                    </div>
-                        
-                                    <?php
+                                        endif; ?> 
 
-                                    endif; ?> 
+                                        </div>
 
                                     </div>
 

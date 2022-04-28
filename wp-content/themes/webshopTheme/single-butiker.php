@@ -51,8 +51,8 @@ get_header(); ?>
                                     $butiksbild = get_field( 'butiksbild'); 
                                     
                                     if($butiksbild ): ?> 
-                                    <div class="cptImg">
-                                        <img src=" <?php echo $butiksbild; ?> " alt="Butikens bild">
+                                    <div>
+                                        <img class="cptImg" src=" <?php echo $butiksbild; ?> " alt="Butikens bild">
 
                                     </div>
                         
@@ -105,10 +105,11 @@ get_header(); ?>
                                     
                                         ?> 
                                     </div>
+                                    <br>
 
-                                    <div>
+                                    <div class="oppettiderDiv">
                                         <br>
-                                        <h3>Öppettider: </h3><br>
+                                        <h3>Öppettider </h3><br>
 
                                     <?php 
                                     $oppettider = get_field( 'oppettider'); 
