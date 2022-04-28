@@ -21,6 +21,7 @@ get_header();
 								/* img url */
 								the_post_thumbnail_url(); 
 								?>" alt="">
+								<br>
 								<h2>
 									<a id="titlePost" href="
 									<?php  
@@ -35,6 +36,7 @@ get_header();
 									</a>
 									
 								</h2>
+								<br>
 								<?php
 								/* visar texten */
 								 the_excerpt();  
@@ -49,7 +51,7 @@ get_header();
 					</div>
 					<nav class="navigation">
 							
-						<?php the_posts_pagination( array( 'mid_size' => 3 ) ); ?>
+						<?php the_posts_pagination( array( 'mid_size' => 2 ) ); ?>
 					</nav>
 
 				</div>

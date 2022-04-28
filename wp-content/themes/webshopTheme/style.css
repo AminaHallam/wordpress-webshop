@@ -27,9 +27,7 @@ header {
     color: rgb(109, 109, 109);
 }
 
-a {
-    color: black !important; 
-}
+
 
 footer {
     display: block;
@@ -142,7 +140,7 @@ footer {
 }
 
 .menu {
-    color: black;
+    color: black !important;
     text-decoration: none;
     display: flex;
     align-items: center;
@@ -152,6 +150,14 @@ footer {
     gap: 60px; 
     list-style: none;
     
+}
+
+#menu-huvudmeny li a {
+    color: black !important;
+} 
+
+.col-xs-12 li a {
+    color: black !important;
 }
 
 .pagination {
