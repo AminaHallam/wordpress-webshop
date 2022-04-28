@@ -27,7 +27,9 @@ header {
     color: rgb(109, 109, 109);
 }
 
-/*color: rgb(109, 109, 109); */
+a {
+    color: black !important; 
+}
 
 footer {
     display: block;
@@ -44,6 +46,7 @@ footer {
 .row {
     display: flex;
     justify-content: center;
+    margin-top: 25px;
 }
 
 .blogDiv {
@@ -126,6 +129,7 @@ footer {
 
 .logoHeader img {
     max-width: 250px;
+    margin: auto; 
 }
 
 .divContainer {
@@ -591,6 +595,10 @@ iframe {
 p {
     /* overflow-wrap: break-word; */
     flex-wrap: wrap;
+}
+
+h1 {
+    text-align: center;
 }
 
 
