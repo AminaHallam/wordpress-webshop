@@ -15,11 +15,6 @@ get_header();
                                 the_post();
                             ?>
 							<article class="blogDiv">
-								<img src="
-								<?php 
-								
-								the_post_thumbnail_url(); 
-								?>" alt="">
 								<h2>
 									<a id="titlePost" href="
 									<?php  
@@ -34,6 +29,13 @@ get_header();
 									</a>
 									
 								</h2>
+								<br>
+								<img src="
+								<?php 
+								
+								the_post_thumbnail_url(); 
+								?>" alt="">
+								<br>
 								<?php
 								
 								 the_content();  
