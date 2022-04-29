@@ -152,13 +152,6 @@ footer {
     
 }
 
-#menu-huvudmeny li a {
-    color: black !important;
-} 
-
-.col-xs-12 li a {
-    color: black !important;
-}
 
 .pagination {
     display: flex;
