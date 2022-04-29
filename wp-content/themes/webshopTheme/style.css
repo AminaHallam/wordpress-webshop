@@ -152,6 +152,10 @@ footer {
     
 }
 
+.user-registration {
+    width: 60%;
+}
+
 
 .pagination {
     display: flex;
