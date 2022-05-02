@@ -1,0 +1,197 @@
+2022-05-01T12:23:55+00:00 CRITICAL Declaration of drone_shipping_method::calculate_shipping($package) must be compatible with WC_Shipping_Method::calculate_shipping($package = []) i /Applications/MAMP/htdocs/wordpress-webshop/wp-content/plugins/shippingPlugin/ah-shippingPlugin.php på rad 53
+
+2022-05-01T12:23:59+00:00 CRITICAL Declaration of drone_shipping_method::calculate_shipping($package) must be compatible with WC_Shipping_Method::calculate_shipping($package = []) i /Applications/MAMP/htdocs/wordpress-webshop/wp-content/plugins/shippingPlugin/ah-shippingPlugin.php på rad 53
+
+2022-05-01T12:24:21+00:00 CRITICAL Declaration of drone_shipping_method::calculate_shipping($package) must be compatible with WC_Shipping_Method::calculate_shipping($package = []) i /Applications/MAMP/htdocs/wordpress-webshop/wp-content/plugins/shippingPlugin/ah-shippingPlugin.php på rad 53
+
+2022-05-01T12:26:01+00:00 CRITICAL Declaration of drone_shipping_method::calculate_shipping($package) must be compatible with WC_Shipping_Method::calculate_shipping($package = []) i /Applications/MAMP/htdocs/wordpress-webshop/wp-content/plugins/shippingPlugin/ah-shippingPlugin.php på rad 49
+
+2022-05-01T12:28:21+00:00 CRITICAL Uncaught TypeError: Unsupported operand types: string * int in /Applications/MAMP/htdocs/wordpress-webshop/wp-content/plugins/shippingPlugin/ah-shippingPlugin.php:58
+Stack trace:
+#0 /Applications/MAMP/htdocs/wordpress-webshop/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-shipping-method.php(233): drone_shipping_method->calculate_shipping(Array)
+#1 /Applications/MAMP/htdocs/wordpress-webshop/wp-content/plugins/woocommerce/includes/class-wc-shipping.php(348): WC_Shipping_Method->get_rates_for_package(Array)
+#2 /Applications/MAMP/htdocs/wordpress-webshop/wp-content/plugins/woocommerce/includes/class-wc-shipping.php(260): WC_Shipping->calculate_shipping_for_package(Array, 0)
+#3 /Applications/MAMP/htdocs/wordpress-webshop/wp-content/plugins/woocommerce/includes/class-wc-cart.php(1420): WC_Shipping->calculate_shipping(Array)
+#4 /Applications/MAMP/htdocs/wordpress-webshop/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php(339): WC_Cart->calculate_shipping()
+#5 /Applications/MAMP/htdocs/wordpress-webshop/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php(850): WC_Cart_Totals->get_shipping_from_cart()
+#6 /Applications/MAMP/htdocs/wordpress-webshop/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php(144): WC_Cart_Totals->calculate_shipping_totals()
+#7 /Applications/MAMP/htdocs/wordpress-webshop/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php(134): WC_Cart_Totals->calculate()
+#8 /Applications/MAMP/htdocs/wordpress-webshop/wp-content/plugins/woocommerce/includes/class-wc-cart.php(1398): WC_Cart_Totals->__construct(Object(WC_Cart))
+#9 /Applications/MAMP/htdocs/wordpress-webshop/wp-content/plugins/woocommerce/includes/shortcodes/class-wc-shortcode-cart.php(94): WC_Cart->calculate_totals()
+#10 /Applications/MAMP/htdocs/wordpress-webshop/wp-content/plugins/woocommerce/includes/class-wc-shortcodes.php(72): WC_Shortcode_Cart::output(Array)
+#11 /Applications/MAMP/htdocs/wordpress-webshop/wp-content/plugins/woocommerce/includes/class-wc-shortcodes.php(85): WC_Shortcodes::shortcode_wrapper(Array)
+#12 /Applications/MAMP/htdocs/wordpress-webshop/wp-includes/shortcodes.php(356): WC_Shortcodes::cart('', '', 'woocommerce_car...')
+#13 [internal function]: do_shortcode_tag(Array)
+#14 /Applications/MAMP/htdocs/wordpress-webshop/wp-includes/shortcodes.php(228): preg_replace_callback('/\\[(\\[?)(woocom...', 'do_shortcode_ta...', '[woocommerce_ca...')
+#15 /Applications/MAMP/htdocs/wordpress-webshop/wp-includes/class-wp-hook.php(307): do_shortcode('[woocommerce_ca...')
+#16 /Applications/MAMP/htdocs/wordpress-webshop/wp-includes/plugin.php(189): WP_Hook->apply_filters('[woocommerce_ca...', Array)
+#17 /Applications/MAMP/htdocs/wordpress-webshop/wp-includes/post-template.php(253): apply_filters('the_content', '<!-- wp:shortco...')
+#18 /Applications/MAMP/htdocs/wordpress-webshop/wp-content/themes/webshopTheme/index.php(26): the_content()
+#19 /Applications/MAMP/htdocs/wordpress-webshop/wp-includes/template-loader.php(106): include('/Applications/M...')
+#20 /Applications/MAMP/htdocs/wordpress-webshop/wp-blog-header.php(19): require_once('/Applications/M...')
+#21 /Applications/MAMP/htdocs/wordpress-webshop/index.php(17): require('/Applications/M...')
+#22 {main}
+  thrown i /Applications/MAMP/htdocs/wordpress-webshop/wp-content/plugins/shippingPlugin/ah-shippingPlugin.php på rad 58
+
+2022-05-01T12:30:07+00:00 CRITICAL Uncaught TypeError: Unsupported operand types: string * int in /Applications/MAMP/htdocs/wordpress-webshop/wp-content/plugins/shippingPlugin/ah-shippingPlugin.php:83
+Stack trace:
+#0 /Applications/MAMP/htdocs/wordpress-webshop/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-shipping-method.php(233): drone_shipping_method->calculate_shipping(Array)
+#1 /Applications/MAMP/htdocs/wordpress-webshop/wp-content/plugins/woocommerce/includes/class-wc-shipping.php(348): WC_Shipping_Method->get_rates_for_package(Array)
+#2 /Applications/MAMP/htdocs/wordpress-webshop/wp-content/plugins/woocommerce/includes/class-wc-shipping.php(260): WC_Shipping->calculate_shipping_for_package(Array, 0)
+#3 /Applications/MAMP/htdocs/wordpress-webshop/wp-content/plugins/woocommerce/includes/class-wc-cart.php(1420): WC_Shipping->calculate_shipping(Array)
+#4 /Applications/MAMP/htdocs/wordpress-webshop/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php(339): WC_Cart->calculate_shipping()
+#5 /Applications/MAMP/htdocs/wordpress-webshop/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php(850): WC_Cart_Totals->get_shipping_from_cart()
+#6 /Applications/MAMP/htdocs/wordpress-webshop/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php(144): WC_Cart_Totals->calculate_shipping_totals()
+#7 /Applications/MAMP/htdocs/wordpress-webshop/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php(134): WC_Cart_Totals->calculate()
+#8 /Applications/MAMP/htdocs/wordpress-webshop/wp-content/plugins/woocommerce/includes/class-wc-cart.php(1398): WC_Cart_Totals->__construct(Object(WC_Cart))
+#9 /Applications/MAMP/htdocs/wordpress-webshop/wp-content/plugins/woocommerce/includes/shortcodes/class-wc-shortcode-cart.php(94): WC_Cart->calculate_totals()
+#10 /Applications/MAMP/htdocs/wordpress-webshop/wp-content/plugins/woocommerce/includes/class-wc-shortcodes.php(72): WC_Shortcode_Cart::output(Array)
+#11 /Applications/MAMP/htdocs/wordpress-webshop/wp-content/plugins/woocommerce/includes/class-wc-shortcodes.php(85): WC_Shortcodes::shortcode_wrapper(Array)
+#12 /Applications/MAMP/htdocs/wordpress-webshop/wp-includes/shortcodes.php(356): WC_Shortcodes::cart('', '', 'woocommerce_car...')
+#13 [internal function]: do_shortcode_tag(Array)
+#14 /Applications/MAMP/htdocs/wordpress-webshop/wp-includes/shortcodes.php(228): preg_replace_callback('/\\[(\\[?)(woocom...', 'do_shortcode_ta...', '[woocommerce_ca...')
+#15 /Applications/MAMP/htdocs/wordpress-webshop/wp-includes/class-wp-hook.php(307): do_shortcode('[woocommerce_ca...')
+#16 /Applications/MAMP/htdocs/wordpress-webshop/wp-includes/plugin.php(189): WP_Hook->apply_filters('[woocommerce_ca...', Array)
+#17 /Applications/MAMP/htdocs/wordpress-webshop/wp-includes/post-template.php(253): apply_filters('the_content', '<!-- wp:shortco...')
+#18 /Applications/MAMP/htdocs/wordpress-webshop/wp-content/themes/webshopTheme/index.php(26): the_content()
+#19 /Applications/MAMP/htdocs/wordpress-webshop/wp-includes/template-loader.php(106): include('/Applications/M...')
+#20 /Applications/MAMP/htdocs/wordpress-webshop/wp-blog-header.php(19): require_once('/Applications/M...')
+#21 /Applications/MAMP/htdocs/wordpress-webshop/index.php(17): require('/Applications/M...')
+#22 {main}
+  thrown i /Applications/MAMP/htdocs/wordpress-webshop/wp-content/plugins/shippingPlugin/ah-shippingPlugin.php på rad 83
+
+2022-05-01T12:33:11+00:00 CRITICAL Uncaught Error: Call to a member function get_weight() on null in /Applications/MAMP/htdocs/wordpress-webshop/wp-content/plugins/shippingPlugin/ah-shippingPlugin.php:58
+Stack trace:
+#0 /Applications/MAMP/htdocs/wordpress-webshop/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-shipping-method.php(233): drone_shipping_method->calculate_shipping(Array)
+#1 /Applications/MAMP/htdocs/wordpress-webshop/wp-content/plugins/woocommerce/includes/class-wc-shipping.php(348): WC_Shipping_Method->get_rates_for_package(Array)
+#2 /Applications/MAMP/htdocs/wordpress-webshop/wp-content/plugins/woocommerce/includes/class-wc-shipping.php(260): WC_Shipping->calculate_shipping_for_package(Array, 0)
+#3 /Applications/MAMP/htdocs/wordpress-webshop/wp-content/plugins/woocommerce/includes/class-wc-cart.php(1420): WC_Shipping->calculate_shipping(Array)
+#4 /Applications/MAMP/htdocs/wordpress-webshop/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php(339): WC_Cart->calculate_shipping()
+#5 /Applications/MAMP/htdocs/wordpress-webshop/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php(850): WC_Cart_Totals->get_shipping_from_cart()
+#6 /Applications/MAMP/htdocs/wordpress-webshop/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php(144): WC_Cart_Totals->calculate_shipping_totals()
+#7 /Applications/MAMP/htdocs/wordpress-webshop/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php(134): WC_Cart_Totals->calculate()
+#8 /Applications/MAMP/htdocs/wordpress-webshop/wp-content/plugins/woocommerce/includes/class-wc-cart.php(1398): WC_Cart_Totals->__construct(Object(WC_Cart))
+#9 /Applications/MAMP/htdocs/wordpress-webshop/wp-content/plugins/woocommerce/includes/shortcodes/class-wc-shortcode-cart.php(94): WC_Cart->calculate_totals()
+#10 /Applications/MAMP/htdocs/wordpress-webshop/wp-content/plugins/woocommerce/includes/class-wc-shortcodes.php(72): WC_Shortcode_Cart::output(Array)
+#11 /Applications/MAMP/htdocs/wordpress-webshop/wp-content/plugins/woocommerce/includes/class-wc-shortcodes.php(85): WC_Shortcodes::shortcode_wrapper(Array)
+#12 /Applications/MAMP/htdocs/wordpress-webshop/wp-includes/shortcodes.php(356): WC_Shortcodes::cart('', '', 'woocommerce_car...')
+#13 [internal function]: do_shortcode_tag(Array)
+#14 /Applications/MAMP/htdocs/wordpress-webshop/wp-includes/shortcodes.php(228): preg_replace_callback('/\\[(\\[?)(woocom...', 'do_shortcode_ta...', '[woocommerce_ca...')
+#15 /Applications/MAMP/htdocs/wordpress-webshop/wp-includes/class-wp-hook.php(307): do_shortcode('[woocommerce_ca...')
+#16 /Applications/MAMP/htdocs/wordpress-webshop/wp-includes/plugin.php(189): WP_Hook->apply_filters('[woocommerce_ca...', Array)
+#17 /Applications/MAMP/htdocs/wordpress-webshop/wp-includes/post-template.php(253): apply_filters('the_content', '<!-- wp:shortco...')
+#18 /Applications/MAMP/htdocs/wordpress-webshop/wp-content/themes/webshopTheme/index.php(26): the_content()
+#19 /Applications/MAMP/htdocs/wordpress-webshop/wp-includes/template-loader.php(106): include('/Applications/M...')
+#20 /Applications/MAMP/htdocs/wordpress-webshop/wp-blog-header.php(19): require_once('/Applications/M...')
+#21 /Applications/MAMP/htdocs/wordpress-webshop/index.php(17): require('/Applications/M...')
+#22 {main}
+  thrown i /Applications/MAMP/htdocs/wordpress-webshop/wp-content/plugins/shippingPlugin/ah-shippingPlugin.php på rad 58
+
+2022-05-01T12:36:20+00:00 CRITICAL Uncaught TypeError: Unsupported operand types: string * null in /Applications/MAMP/htdocs/wordpress-webshop/wp-content/plugins/shippingPlugin/ah-shippingPlugin.php:58
+Stack trace:
+#0 /Applications/MAMP/htdocs/wordpress-webshop/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-shipping-method.php(233): drone_shipping_method->calculate_shipping(Array)
+#1 /Applications/MAMP/htdocs/wordpress-webshop/wp-content/plugins/woocommerce/includes/class-wc-shipping.php(348): WC_Shipping_Method->get_rates_for_package(Array)
+#2 /Applications/MAMP/htdocs/wordpress-webshop/wp-content/plugins/woocommerce/includes/class-wc-shipping.php(260): WC_Shipping->calculate_shipping_for_package(Array, 0)
+#3 /Applications/MAMP/htdocs/wordpress-webshop/wp-content/plugins/woocommerce/includes/class-wc-cart.php(1420): WC_Shipping->calculate_shipping(Array)
+#4 /Applications/MAMP/htdocs/wordpress-webshop/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php(339): WC_Cart->calculate_shipping()
+#5 /Applications/MAMP/htdocs/wordpress-webshop/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php(850): WC_Cart_Totals->get_shipping_from_cart()
+#6 /Applications/MAMP/htdocs/wordpress-webshop/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php(144): WC_Cart_Totals->calculate_shipping_totals()
+#7 /Applications/MAMP/htdocs/wordpress-webshop/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php(134): WC_Cart_Totals->calculate()
+#8 /Applications/MAMP/htdocs/wordpress-webshop/wp-content/plugins/woocommerce/includes/class-wc-cart.php(1398): WC_Cart_Totals->__construct(Object(WC_Cart))
+#9 /Applications/MAMP/htdocs/wordpress-webshop/wp-content/plugins/woocommerce/includes/shortcodes/class-wc-shortcode-cart.php(94): WC_Cart->calculate_totals()
+#10 /Applications/MAMP/htdocs/wordpress-webshop/wp-content/plugins/woocommerce/includes/class-wc-shortcodes.php(72): WC_Shortcode_Cart::output(Array)
+#11 /Applications/MAMP/htdocs/wordpress-webshop/wp-content/plugins/woocommerce/includes/class-wc-shortcodes.php(85): WC_Shortcodes::shortcode_wrapper(Array)
+#12 /Applications/MAMP/htdocs/wordpress-webshop/wp-includes/shortcodes.php(356): WC_Shortcodes::cart('', '', 'woocommerce_car...')
+#13 [internal function]: do_shortcode_tag(Array)
+#14 /Applications/MAMP/htdocs/wordpress-webshop/wp-includes/shortcodes.php(228): preg_replace_callback('/\\[(\\[?)(woocom...', 'do_shortcode_ta...', '[woocommerce_ca...')
+#15 /Applications/MAMP/htdocs/wordpress-webshop/wp-includes/class-wp-hook.php(307): do_shortcode('[woocommerce_ca...')
+#16 /Applications/MAMP/htdocs/wordpress-webshop/wp-includes/plugin.php(189): WP_Hook->apply_filters('[woocommerce_ca...', Array)
+#17 /Applications/MAMP/htdocs/wordpress-webshop/wp-includes/post-template.php(253): apply_filters('the_content', '<!-- wp:shortco...')
+#18 /Applications/MAMP/htdocs/wordpress-webshop/wp-content/themes/webshopTheme/index.php(26): the_content()
+#19 /Applications/MAMP/htdocs/wordpress-webshop/wp-includes/template-loader.php(106): include('/Applications/M...')
+#20 /Applications/MAMP/htdocs/wordpress-webshop/wp-blog-header.php(19): require_once('/Applications/M...')
+#21 /Applications/MAMP/htdocs/wordpress-webshop/index.php(17): require('/Applications/M...')
+#22 {main}
+  thrown i /Applications/MAMP/htdocs/wordpress-webshop/wp-content/plugins/shippingPlugin/ah-shippingPlugin.php på rad 58
+
+2022-05-01T12:49:41+00:00 CRITICAL Uncaught TypeError: Cannot access offset of type string on string in /Applications/MAMP/htdocs/wordpress-webshop/wp-content/plugins/shippingPlugin/ah-shippingPlugin.php:59
+Stack trace:
+#0 /Applications/MAMP/htdocs/wordpress-webshop/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-shipping-method.php(233): drone_shipping_method->calculate_shipping(Array)
+#1 /Applications/MAMP/htdocs/wordpress-webshop/wp-content/plugins/woocommerce/includes/class-wc-shipping.php(348): WC_Shipping_Method->get_rates_for_package(Array)
+#2 /Applications/MAMP/htdocs/wordpress-webshop/wp-content/plugins/woocommerce/includes/class-wc-shipping.php(260): WC_Shipping->calculate_shipping_for_package(Array, 0)
+#3 /Applications/MAMP/htdocs/wordpress-webshop/wp-content/plugins/woocommerce/includes/class-wc-cart.php(1420): WC_Shipping->calculate_shipping(Array)
+#4 /Applications/MAMP/htdocs/wordpress-webshop/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php(339): WC_Cart->calculate_shipping()
+#5 /Applications/MAMP/htdocs/wordpress-webshop/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php(850): WC_Cart_Totals->get_shipping_from_cart()
+#6 /Applications/MAMP/htdocs/wordpress-webshop/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php(144): WC_Cart_Totals->calculate_shipping_totals()
+#7 /Applications/MAMP/htdocs/wordpress-webshop/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php(134): WC_Cart_Totals->calculate()
+#8 /Applications/MAMP/htdocs/wordpress-webshop/wp-content/plugins/woocommerce/includes/class-wc-cart.php(1398): WC_Cart_Totals->__construct(Object(WC_Cart))
+#9 /Applications/MAMP/htdocs/wordpress-webshop/wp-content/plugins/woocommerce/includes/shortcodes/class-wc-shortcode-cart.php(94): WC_Cart->calculate_totals()
+#10 /Applications/MAMP/htdocs/wordpress-webshop/wp-content/plugins/woocommerce/includes/class-wc-shortcodes.php(72): WC_Shortcode_Cart::output(Array)
+#11 /Applications/MAMP/htdocs/wordpress-webshop/wp-content/plugins/woocommerce/includes/class-wc-shortcodes.php(85): WC_Shortcodes::shortcode_wrapper(Array)
+#12 /Applications/MAMP/htdocs/wordpress-webshop/wp-includes/shortcodes.php(356): WC_Shortcodes::cart('', '', 'woocommerce_car...')
+#13 [internal function]: do_shortcode_tag(Array)
+#14 /Applications/MAMP/htdocs/wordpress-webshop/wp-includes/shortcodes.php(228): preg_replace_callback('/\\[(\\[?)(woocom...', 'do_shortcode_ta...', '[woocommerce_ca...')
+#15 /Applications/MAMP/htdocs/wordpress-webshop/wp-includes/class-wp-hook.php(307): do_shortcode('[woocommerce_ca...')
+#16 /Applications/MAMP/htdocs/wordpress-webshop/wp-includes/plugin.php(189): WP_Hook->apply_filters('[woocommerce_ca...', Array)
+#17 /Applications/MAMP/htdocs/wordpress-webshop/wp-includes/post-template.php(253): apply_filters('the_content', '<!-- wp:shortco...')
+#18 /Applications/MAMP/htdocs/wordpress-webshop/wp-content/themes/webshopTheme/index.php(26): the_content()
+#19 /Applications/MAMP/htdocs/wordpress-webshop/wp-includes/template-loader.php(106): include('/Applications/M...')
+#20 /Applications/MAMP/htdocs/wordpress-webshop/wp-blog-header.php(19): require_once('/Applications/M...')
+#21 /Applications/MAMP/htdocs/wordpress-webshop/index.php(17): require('/Applications/M...')
+#22 {main}
+  thrown i /Applications/MAMP/htdocs/wordpress-webshop/wp-content/plugins/shippingPlugin/ah-shippingPlugin.php på rad 59
+
+2022-05-01T12:50:08+00:00 CRITICAL Uncaught TypeError: Unsupported operand types: string * int in /Applications/MAMP/htdocs/wordpress-webshop/wp-content/plugins/shippingPlugin/ah-shippingPlugin.php:59
+Stack trace:
+#0 /Applications/MAMP/htdocs/wordpress-webshop/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-shipping-method.php(233): drone_shipping_method->calculate_shipping(Array)
+#1 /Applications/MAMP/htdocs/wordpress-webshop/wp-content/plugins/woocommerce/includes/class-wc-shipping.php(348): WC_Shipping_Method->get_rates_for_package(Array)
+#2 /Applications/MAMP/htdocs/wordpress-webshop/wp-content/plugins/woocommerce/includes/class-wc-shipping.php(260): WC_Shipping->calculate_shipping_for_package(Array, 0)
+#3 /Applications/MAMP/htdocs/wordpress-webshop/wp-content/plugins/woocommerce/includes/class-wc-cart.php(1420): WC_Shipping->calculate_shipping(Array)
+#4 /Applications/MAMP/htdocs/wordpress-webshop/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php(339): WC_Cart->calculate_shipping()
+#5 /Applications/MAMP/htdocs/wordpress-webshop/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php(850): WC_Cart_Totals->get_shipping_from_cart()
+#6 /Applications/MAMP/htdocs/wordpress-webshop/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php(144): WC_Cart_Totals->calculate_shipping_totals()
+#7 /Applications/MAMP/htdocs/wordpress-webshop/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php(134): WC_Cart_Totals->calculate()
+#8 /Applications/MAMP/htdocs/wordpress-webshop/wp-content/plugins/woocommerce/includes/class-wc-cart.php(1398): WC_Cart_Totals->__construct(Object(WC_Cart))
+#9 /Applications/MAMP/htdocs/wordpress-webshop/wp-content/plugins/woocommerce/includes/shortcodes/class-wc-shortcode-cart.php(94): WC_Cart->calculate_totals()
+#10 /Applications/MAMP/htdocs/wordpress-webshop/wp-content/plugins/woocommerce/includes/class-wc-shortcodes.php(72): WC_Shortcode_Cart::output(Array)
+#11 /Applications/MAMP/htdocs/wordpress-webshop/wp-content/plugins/woocommerce/includes/class-wc-shortcodes.php(85): WC_Shortcodes::shortcode_wrapper(Array)
+#12 /Applications/MAMP/htdocs/wordpress-webshop/wp-includes/shortcodes.php(356): WC_Shortcodes::cart('', '', 'woocommerce_car...')
+#13 [internal function]: do_shortcode_tag(Array)
+#14 /Applications/MAMP/htdocs/wordpress-webshop/wp-includes/shortcodes.php(228): preg_replace_callback('/\\[(\\[?)(woocom...', 'do_shortcode_ta...', '[woocommerce_ca...')
+#15 /Applications/MAMP/htdocs/wordpress-webshop/wp-includes/class-wp-hook.php(307): do_shortcode('[woocommerce_ca...')
+#16 /Applications/MAMP/htdocs/wordpress-webshop/wp-includes/plugin.php(189): WP_Hook->apply_filters('[woocommerce_ca...', Array)
+#17 /Applications/MAMP/htdocs/wordpress-webshop/wp-includes/post-template.php(253): apply_filters('the_content', '<!-- wp:shortco...')
+#18 /Applications/MAMP/htdocs/wordpress-webshop/wp-content/themes/webshopTheme/index.php(26): the_content()
+#19 /Applications/MAMP/htdocs/wordpress-webshop/wp-includes/template-loader.php(106): include('/Applications/M...')
+#20 /Applications/MAMP/htdocs/wordpress-webshop/wp-blog-header.php(19): require_once('/Applications/M...')
+#21 /Applications/MAMP/htdocs/wordpress-webshop/index.php(17): require('/Applications/M...')
+#22 {main}
+  thrown i /Applications/MAMP/htdocs/wordpress-webshop/wp-content/plugins/shippingPlugin/ah-shippingPlugin.php på rad 59
+
+2022-05-01T12:50:30+00:00 CRITICAL Uncaught TypeError: Unsupported operand types: string * null in /Applications/MAMP/htdocs/wordpress-webshop/wp-content/plugins/shippingPlugin/ah-shippingPlugin.php:59
+Stack trace:
+#0 /Applications/MAMP/htdocs/wordpress-webshop/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-shipping-method.php(233): drone_shipping_method->calculate_shipping(Array)
+#1 /Applications/MAMP/htdocs/wordpress-webshop/wp-content/plugins/woocommerce/includes/class-wc-shipping.php(348): WC_Shipping_Method->get_rates_for_package(Array)
+#2 /Applications/MAMP/htdocs/wordpress-webshop/wp-content/plugins/woocommerce/includes/class-wc-shipping.php(260): WC_Shipping->calculate_shipping_for_package(Array, 0)
+#3 /Applications/MAMP/htdocs/wordpress-webshop/wp-content/plugins/woocommerce/includes/class-wc-cart.php(1420): WC_Shipping->calculate_shipping(Array)
+#4 /Applications/MAMP/htdocs/wordpress-webshop/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php(339): WC_Cart->calculate_shipping()
+#5 /Applications/MAMP/htdocs/wordpress-webshop/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php(850): WC_Cart_Totals->get_shipping_from_cart()
+#6 /Applications/MAMP/htdocs/wordpress-webshop/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php(144): WC_Cart_Totals->calculate_shipping_totals()
+#7 /Applications/MAMP/htdocs/wordpress-webshop/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php(134): WC_Cart_Totals->calculate()
+#8 /Applications/MAMP/htdocs/wordpress-webshop/wp-content/plugins/woocommerce/includes/class-wc-cart.php(1398): WC_Cart_Totals->__construct(Object(WC_Cart))
+#9 /Applications/MAMP/htdocs/wordpress-webshop/wp-content/plugins/woocommerce/includes/shortcodes/class-wc-shortcode-cart.php(94): WC_Cart->calculate_totals()
+#10 /Applications/MAMP/htdocs/wordpress-webshop/wp-content/plugins/woocommerce/includes/class-wc-shortcodes.php(72): WC_Shortcode_Cart::output(Array)
+#11 /Applications/MAMP/htdocs/wordpress-webshop/wp-content/plugins/woocommerce/includes/class-wc-shortcodes.php(85): WC_Shortcodes::shortcode_wrapper(Array)
+#12 /Applications/MAMP/htdocs/wordpress-webshop/wp-includes/shortcodes.php(356): WC_Shortcodes::cart('', '', 'woocommerce_car...')
+#13 [internal function]: do_shortcode_tag(Array)
+#14 /Applications/MAMP/htdocs/wordpress-webshop/wp-includes/shortcodes.php(228): preg_replace_callback('/\\[(\\[?)(woocom...', 'do_shortcode_ta...', '[woocommerce_ca...')
+#15 /Applications/MAMP/htdocs/wordpress-webshop/wp-includes/class-wp-hook.php(307): do_shortcode('[woocommerce_ca...')
+#16 /Applications/MAMP/htdocs/wordpress-webshop/wp-includes/plugin.php(189): WP_Hook->apply_filters('[woocommerce_ca...', Array)
+#17 /Applications/MAMP/htdocs/wordpress-webshop/wp-includes/post-template.php(253): apply_filters('the_content', '<!-- wp:shortco...')
+#18 /Applications/MAMP/htdocs/wordpress-webshop/wp-content/themes/webshopTheme/index.php(26): the_content()
+#19 /Applications/MAMP/htdocs/wordpress-webshop/wp-includes/template-loader.php(106): include('/Applications/M...')
+#20 /Applications/MAMP/htdocs/wordpress-webshop/wp-blog-header.php(19): require_once('/Applications/M...')
+#21 /Applications/MAMP/htdocs/wordpress-webshop/index.php(17): require('/Applications/M...')
+#22 {main}
+  thrown i /Applications/MAMP/htdocs/wordpress-webshop/wp-content/plugins/shippingPlugin/ah-shippingPlugin.php på rad 59
+
