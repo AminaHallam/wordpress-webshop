@@ -3,14 +3,14 @@ get_header(); ?>
 
 <main> 
     <div class="container">
-        <p class="errorPage">
+        <h1 class="errorPage">
         <?php 
 
         echo 'Nothing was found at this location. Try searching, or check out the links below.'; 
 
         ?> 
 
-        </p>
+        </h1>
     </div>
 </main> 
 
