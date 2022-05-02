@@ -19,9 +19,11 @@ body {
     padding: 0;
 }
 header {
-    display: flex;
+    /* display: flex;
     justify-content: center;
-    flex-wrap: wrap;
+    flex-wrap: wrap; */
+    width: 70%;
+    margin: auto;
     height: none;
     flex-grow: 5;
     color: rgb(109, 109, 109);
@@ -39,6 +41,21 @@ footer {
     bottom: 0;
     width: 100%;
     
+}
+
+.woocommerce-product-gallery__trigger {
+    background-color: white;
+}
+
+.woocommerce-variation-add-to-cart {
+    display: flex;
+    flex-direction: column;
+}
+
+.single_add_to_cart_button {
+    border-radius: 20px;
+    background-color: black;
+    color: white;
 }
 
 .row {
@@ -62,6 +79,7 @@ footer {
     flex-direction: column;
     gap: 10px; 
     list-style: none;
+
     background-color: moccasin;
 }
 
@@ -629,13 +647,6 @@ img {
 
 }
 
-@media screen and (max-width:980px) { 
-    .container {
-        width: 860px;
-    }
-
-
-}
 
 
 @media screen and (max-width:800px) {
@@ -644,26 +655,20 @@ img {
         flex-wrap: wrap;
     }
 
-    .hamburgerMenu {
-        display: block;
-        padding-left: 30px;
-    }
-
-    .hamburgerMenu.active .bar:nth-child(2) {
-        opacity: 0;
-    }
-    .hamburgerMenu.active .bar:nth-child(1) {
-        transform: translateY(10px) rotate(50deg)
-    }
-    .hamburgerMenu.active .bar:nth-child(3) {
-        transform: translateY(-8px) rotate(-55deg);
-    }
 
     .containerHeader {
         align-items: center;
     }
 
 }
+
+@media screen and (max-width:780px) { 
+    #menu-huvudmeny {
+        flex-wrap: wrap;
+    }
+
+
+} 
 
 @media screen and (max-width:750px) {
     .topnav {
@@ -681,16 +686,14 @@ img {
         font-size: 10px;
     }
 
-    .iconDiv {
-        font-size: 10px;
-    }
-
-    .dropbtn {
-        font-size: 10px;
-    }
 
     .divContainer {
         gap: 5px; 
+    }
+
+    #menu-huvudmeny {
+        gap: 40px; 
+        flex-wrap: wrap-reverse;
     }
 
 }
