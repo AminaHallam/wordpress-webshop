@@ -232,6 +232,19 @@ iframe {
     height: auto;
 }
 
+.searchImg {
+    width: 50%;
+    height: auto;
+}
+
+.searchDiv {
+    display: flex;
+    justify-content: center;
+    width: 60%;
+    height: auto;
+    margin: auto; 
+}
+
 .topnav {
     
     background-color: white;
