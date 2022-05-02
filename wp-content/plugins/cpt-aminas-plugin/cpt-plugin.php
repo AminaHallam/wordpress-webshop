@@ -1,15 +1,18 @@
 <?php 
 /*
-Plugin name: cpt-ah Plugin 
+ * Plugin name: cpt-ah Plugin 
+ * Description: CPT for physical stores
+ * Version: 1.0.0
+ * Author: Amina Hallam
 
 */ 
 
 
-add_action('init', 'registrera_butik'); 
+add_action('init', 'register_store'); 
 
-function registrera_butik() {
+function register_store() {
 
-    $produkt_args = [
+    $product_args = [
         'public' => true, 
         'label' => 'butiker',
         'show_in_rest' => true,
@@ -22,7 +25,7 @@ function registrera_butik() {
         
     ];
 
-    register_post_type('butiker', $produkt_args); 
+    register_post_type('butiker', $product_args); 
 
 }
 
