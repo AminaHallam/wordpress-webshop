@@ -272,7 +272,10 @@ iframe {
     margin-left: 15px;
 }
 
-
+.errorPage {
+    margin-top: 30px;
+    margin-bottom: 400px;
+}
 
 #product-12 {
     display: flex;

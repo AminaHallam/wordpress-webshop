@@ -17,7 +17,6 @@
             <span class="logoHeader"><a href="<?php echo get_template_directory_uri().'/index.html';?>"><img class="logo" src="<?php echo get_template_directory_uri().'/img/logo.png';?>"></a></span>
             <div class="col-sm-6 hidden-xs">
 						<?php 
-                            // Form input för sökfunktion
                             get_search_form(); 
                         ?> 
 

@@ -14,11 +14,8 @@ get_header(); ?>
                     <div class="col-xs-12">
 
                         <h1>
-                            <a id="titlePost" href="
-                            <?php  
+                            <a id="titlePost" href="<?php the_permalink_rss(); ?>">
                             
-                            the_permalink_rss(); 
-                            ?>">
                             <?php 
                             
                             the_title(); 
