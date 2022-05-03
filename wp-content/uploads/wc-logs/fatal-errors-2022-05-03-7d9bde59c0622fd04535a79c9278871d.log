@@ -1,0 +1,92 @@
+2022-05-03T18:08:42+00:00 CRITICAL syntax error, unexpected variable "$this", expecting "function" or "const" i /Applications/MAMP/htdocs/wordpress-webshop/wp-content/plugins/wc-payment-invoice/payment-invoice-plugin.php på rad 21
+
+2022-05-03T18:08:45+00:00 CRITICAL syntax error, unexpected variable "$this", expecting "function" or "const" i /Applications/MAMP/htdocs/wordpress-webshop/wp-content/plugins/wc-payment-invoice/payment-invoice-plugin.php på rad 21
+
+2022-05-03T18:08:45+00:00 CRITICAL syntax error, unexpected variable "$this", expecting "function" or "const" i /Applications/MAMP/htdocs/wordpress-webshop/wp-content/plugins/wc-payment-invoice/payment-invoice-plugin.php på rad 21
+
+2022-05-03T18:17:08+00:00 CRITICAL Unclosed '{' on line 83 does not match ')' i /Applications/MAMP/htdocs/wordpress-webshop/wp-content/plugins/wc-payment-invoice/payment-invoice-plugin.php på rad 88
+
+2022-05-03T18:17:11+00:00 CRITICAL Unclosed '{' on line 83 does not match ')' i /Applications/MAMP/htdocs/wordpress-webshop/wp-content/plugins/wc-payment-invoice/payment-invoice-plugin.php på rad 88
+
+2022-05-03T18:17:11+00:00 CRITICAL Unclosed '{' on line 83 does not match ')' i /Applications/MAMP/htdocs/wordpress-webshop/wp-content/plugins/wc-payment-invoice/payment-invoice-plugin.php på rad 88
+
+2022-05-03T18:18:16+00:00 CRITICAL syntax error, unexpected identifier "add_filter", expecting "function" or "const" i /Applications/MAMP/htdocs/wordpress-webshop/wp-content/plugins/wc-payment-invoice/payment-invoice-plugin.php på rad 126
+
+2022-05-03T18:18:19+00:00 CRITICAL syntax error, unexpected identifier "add_filter", expecting "function" or "const" i /Applications/MAMP/htdocs/wordpress-webshop/wp-content/plugins/wc-payment-invoice/payment-invoice-plugin.php på rad 126
+
+2022-05-03T18:18:19+00:00 CRITICAL syntax error, unexpected identifier "add_filter", expecting "function" or "const" i /Applications/MAMP/htdocs/wordpress-webshop/wp-content/plugins/wc-payment-invoice/payment-invoice-plugin.php på rad 126
+
+2022-05-03T18:32:28+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($function) must be a valid callback, function "wc_invoice_payment_gateways" not found or invalid function name in /Applications/MAMP/htdocs/wordpress-webshop/wp-includes/class-wp-hook.php:307
+Stack trace:
+#0 /Applications/MAMP/htdocs/wordpress-webshop/wp-includes/plugin.php(189): WP_Hook->apply_filters(Array, Array)
+#1 /Applications/MAMP/htdocs/wordpress-webshop/wp-content/plugins/woocommerce/includes/class-wc-payment-gateways.php(88): apply_filters('woocommerce_pay...', Array)
+#2 /Applications/MAMP/htdocs/wordpress-webshop/wp-content/plugins/woocommerce/includes/class-wc-payment-gateways.php(70): WC_Payment_Gateways->init()
+#3 /Applications/MAMP/htdocs/wordpress-webshop/wp-content/plugins/woocommerce/includes/class-wc-payment-gateways.php(43): WC_Payment_Gateways->__construct()
+#4 /Applications/MAMP/htdocs/wordpress-webshop/wp-content/plugins/woocommerce/includes/class-woocommerce.php(888): WC_Payment_Gateways::instance()
+#5 /Applications/MAMP/htdocs/wordpress-webshop/wp-content/plugins/woocommerce/includes/class-woocommerce.php(162): WooCommerce->payment_gateways()
+#6 /Applications/MAMP/htdocs/wordpress-webshop/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/StoreApi/Schemas/CheckoutSchema.php(117): WooCommerce->__get('payment_gateway...')
+#7 /Applications/MAMP/htdocs/wordpress-webshop/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/StoreApi/Schemas/AbstractSchema.php(55): Automattic\WooCommerce\Blocks\StoreApi\Schemas\CheckoutSchema->get_properties()
+#8 /Applications/MAMP/htdocs/wordpress-webshop/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/StoreApi/Routes/AbstractRoute.php(45): Automattic\WooCommerce\Blocks\StoreApi\Schemas\AbstractSchema->get_item_schema()
+#9 /Applications/MAMP/htdocs/wordpress-webshop/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/StoreApi/Routes/AbstractRoute.php(223): Automattic\WooCommerce\Blocks\StoreApi\Routes\AbstractRoute->get_item_schema()
+#10 /Applications/MAMP/htdocs/wordpress-webshop/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/StoreApi/Routes/Checkout.php(58): Automattic\WooCommerce\Blocks\StoreApi\Routes\AbstractRoute->get_context_param(Array)
+#11 /Applications/MAMP/htdocs/wordpress-webshop/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/StoreApi/RoutesController.php(63): Automattic\WooCommerce\Blocks\StoreApi\Routes\Checkout->get_args()
+#12 /Applications/MAMP/htdocs/wordpress-webshop/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/RestApi.php(46): Automattic\WooCommerce\Blocks\StoreApi\RoutesController->register_routes()
+#13 /Applications/MAMP/htdocs/wordpress-webshop/wp-includes/class-wp-hook.php(307): Automattic\WooCommerce\Blocks\RestApi->register_rest_routes(Object(WP_REST_Server))
+#14 /Applications/MAMP/htdocs/wordpress-webshop/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#15 /Applications/MAMP/htdocs/wordpress-webshop/wp-includes/plugin.php(474): WP_Hook->do_action(Array)
+#16 /Applications/MAMP/htdocs/wordpress-webshop/wp-includes/rest-api.php(553): do_action('rest_api_init', Object(WP_REST_Server))
+#17 /Applications/MAMP/htdocs/wordpress-webshop/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/RestApi.php(56): rest_get_server()
+#18 /Applications/MAMP/htdocs/wordpress-webshop/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/BlockTypes/AbstractBlock.php(368): Automattic\WooCommerce\Blocks\RestApi->get_routes_from_namespace('wc/store')
+#19 /Applications/MAMP/htdocs/wordpress-webshop/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/BlockTypes/AbstractProductGrid.php(662): Automattic\WooCommerce\Blocks\BlockTypes\AbstractBlock->enqueue_data(Array)
+#20 /Applications/MAMP/htdocs/wordpress-webshop/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/BlockTypes/AbstractBlock.php(339): Automattic\WooCommerce\Blocks\BlockTypes\AbstractProductGrid->enqueue_data(Array)
+#21 /Applications/MAMP/htdocs/wordpress-webshop/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/BlockTypes/AbstractBlock.php(85): Automattic\WooCommerce\Blocks\BlockTypes\AbstractBlock->enqueue_assets(Array)
+#22 /Applications/MAMP/htdocs/wordpress-webshop/wp-includes/class-wp-block.php(255): Automattic\WooCommerce\Blocks\BlockTypes\AbstractBlock->render_callback(Array, '', Object(WP_Block))
+#23 /Applications/MAMP/htdocs/wordpress-webshop/wp-includes/blocks.php(883): WP_Block->render()
+#24 /Applications/MAMP/htdocs/wordpress-webshop/wp-includes/blocks.php(921): render_block(Array)
+#25 /Applications/MAMP/htdocs/wordpress-webshop/wp-includes/class-wp-hook.php(307): do_blocks('<!-- wp:heading...')
+#26 /Applications/MAMP/htdocs/wordpress-webshop/wp-includes/plugin.php(189): WP_Hook->apply_filters('<!-- wp:heading...', Array)
+#27 /Applications/MAMP/htdocs/wordpress-webshop/wp-includes/post-template.php(253): apply_filters('the_content', '<!-- wp:heading...')
+#28 /Applications/MAMP/htdocs/wordpress-webshop/wp-content/themes/webshopTheme/page-hem.php(20): the_content()
+#29 /Applications/MAMP/htdocs/wordpress-webshop/wp-includes/template-loader.php(106): include('/Applications/M...')
+#30 /Applications/MAMP/htdocs/wordpress-webshop/wp-blog-header.php(19): require_once('/Applications/M...')
+#31 /Applications/MAMP/htdocs/wordpress-webshop/index.php(17): require('/Applications/M...')
+#32 {main}
+  thrown i /Applications/MAMP/htdocs/wordpress-webshop/wp-includes/class-wp-hook.php på rad 307
+
+2022-05-03T18:33:42+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($function) must be a valid callback, function "WC_Invoice_Payment_Gateway" not found or invalid function name in /Applications/MAMP/htdocs/wordpress-webshop/wp-includes/class-wp-hook.php:307
+Stack trace:
+#0 /Applications/MAMP/htdocs/wordpress-webshop/wp-includes/plugin.php(189): WP_Hook->apply_filters(Array, Array)
+#1 /Applications/MAMP/htdocs/wordpress-webshop/wp-content/plugins/woocommerce/includes/class-wc-payment-gateways.php(88): apply_filters('woocommerce_pay...', Array)
+#2 /Applications/MAMP/htdocs/wordpress-webshop/wp-content/plugins/woocommerce/includes/class-wc-payment-gateways.php(70): WC_Payment_Gateways->init()
+#3 /Applications/MAMP/htdocs/wordpress-webshop/wp-content/plugins/woocommerce/includes/class-wc-payment-gateways.php(43): WC_Payment_Gateways->__construct()
+#4 /Applications/MAMP/htdocs/wordpress-webshop/wp-content/plugins/woocommerce/includes/class-woocommerce.php(888): WC_Payment_Gateways::instance()
+#5 /Applications/MAMP/htdocs/wordpress-webshop/wp-content/plugins/woocommerce/includes/class-woocommerce.php(162): WooCommerce->payment_gateways()
+#6 /Applications/MAMP/htdocs/wordpress-webshop/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/StoreApi/Schemas/CheckoutSchema.php(117): WooCommerce->__get('payment_gateway...')
+#7 /Applications/MAMP/htdocs/wordpress-webshop/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/StoreApi/Schemas/AbstractSchema.php(55): Automattic\WooCommerce\Blocks\StoreApi\Schemas\CheckoutSchema->get_properties()
+#8 /Applications/MAMP/htdocs/wordpress-webshop/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/StoreApi/Routes/AbstractRoute.php(45): Automattic\WooCommerce\Blocks\StoreApi\Schemas\AbstractSchema->get_item_schema()
+#9 /Applications/MAMP/htdocs/wordpress-webshop/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/StoreApi/Routes/AbstractRoute.php(223): Automattic\WooCommerce\Blocks\StoreApi\Routes\AbstractRoute->get_item_schema()
+#10 /Applications/MAMP/htdocs/wordpress-webshop/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/StoreApi/Routes/Checkout.php(58): Automattic\WooCommerce\Blocks\StoreApi\Routes\AbstractRoute->get_context_param(Array)
+#11 /Applications/MAMP/htdocs/wordpress-webshop/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/StoreApi/RoutesController.php(63): Automattic\WooCommerce\Blocks\StoreApi\Routes\Checkout->get_args()
+#12 /Applications/MAMP/htdocs/wordpress-webshop/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/RestApi.php(46): Automattic\WooCommerce\Blocks\StoreApi\RoutesController->register_routes()
+#13 /Applications/MAMP/htdocs/wordpress-webshop/wp-includes/class-wp-hook.php(307): Automattic\WooCommerce\Blocks\RestApi->register_rest_routes(Object(WP_REST_Server))
+#14 /Applications/MAMP/htdocs/wordpress-webshop/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#15 /Applications/MAMP/htdocs/wordpress-webshop/wp-includes/plugin.php(474): WP_Hook->do_action(Array)
+#16 /Applications/MAMP/htdocs/wordpress-webshop/wp-includes/rest-api.php(553): do_action('rest_api_init', Object(WP_REST_Server))
+#17 /Applications/MAMP/htdocs/wordpress-webshop/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/RestApi.php(56): rest_get_server()
+#18 /Applications/MAMP/htdocs/wordpress-webshop/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/BlockTypes/AbstractBlock.php(368): Automattic\WooCommerce\Blocks\RestApi->get_routes_from_namespace('wc/store')
+#19 /Applications/MAMP/htdocs/wordpress-webshop/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/BlockTypes/AbstractProductGrid.php(662): Automattic\WooCommerce\Blocks\BlockTypes\AbstractBlock->enqueue_data(Array)
+#20 /Applications/MAMP/htdocs/wordpress-webshop/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/BlockTypes/AbstractBlock.php(339): Automattic\WooCommerce\Blocks\BlockTypes\AbstractProductGrid->enqueue_data(Array)
+#21 /Applications/MAMP/htdocs/wordpress-webshop/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/BlockTypes/AbstractBlock.php(85): Automattic\WooCommerce\Blocks\BlockTypes\AbstractBlock->enqueue_assets(Array)
+#22 /Applications/MAMP/htdocs/wordpress-webshop/wp-includes/class-wp-block.php(255): Automattic\WooCommerce\Blocks\BlockTypes\AbstractBlock->render_callback(Array, '', Object(WP_Block))
+#23 /Applications/MAMP/htdocs/wordpress-webshop/wp-includes/blocks.php(883): WP_Block->render()
+#24 /Applications/MAMP/htdocs/wordpress-webshop/wp-includes/blocks.php(921): render_block(Array)
+#25 /Applications/MAMP/htdocs/wordpress-webshop/wp-includes/class-wp-hook.php(307): do_blocks('<!-- wp:heading...')
+#26 /Applications/MAMP/htdocs/wordpress-webshop/wp-includes/plugin.php(189): WP_Hook->apply_filters('<!-- wp:heading...', Array)
+#27 /Applications/MAMP/htdocs/wordpress-webshop/wp-includes/post-template.php(253): apply_filters('the_content', '<!-- wp:heading...')
+#28 /Applications/MAMP/htdocs/wordpress-webshop/wp-content/themes/webshopTheme/page-hem.php(20): the_content()
+#29 /Applications/MAMP/htdocs/wordpress-webshop/wp-includes/template-loader.php(106): include('/Applications/M...')
+#30 /Applications/MAMP/htdocs/wordpress-webshop/wp-blog-header.php(19): require_once('/Applications/M...')
+#31 /Applications/MAMP/htdocs/wordpress-webshop/index.php(17): require('/Applications/M...')
+#32 {main}
+  thrown i /Applications/MAMP/htdocs/wordpress-webshop/wp-includes/class-wp-hook.php på rad 307
+

@@ -19,9 +19,7 @@ body {
     padding: 0;
 }
 header {
-    /* display: flex;
-    justify-content: center;
-    flex-wrap: wrap; */
+    
     width: 70%;
     margin: auto;
     height: none;
@@ -143,9 +141,22 @@ footer {
     padding: 70px;
 }
 
-.logoHeader img {
-    max-width: 250px;
+/* .logoDiv {
+    width: 60%;
+} */
+
+.logoContainer {
+    width: 100%;
     margin: auto; 
+    object-fit: contain;
+}
+
+#logoImg {
+    display: block;
+    max-width: 100% !important;
+    max-height: 100% !important;
+    width: auto;
+    height: auto;
 }
 
 .divContainer {
@@ -661,23 +672,6 @@ iframe {
       margin-left: 20px;
   }
 
-
-  /* HamburgerMeny */ 
-
-  .hamburgerMenu {
-    display: none;
-    cursor: pointer;       
-}
-
-.bar {
-    display: block;
-    width: 35px;
-    height: 2px;
-    margin: 7px auto;
-    -webkit-transition: all 0.3s ease-in-out;
-    transition: all 0.3s ease-in-out;
-    background-color: black;
-}
 
 
 p {
