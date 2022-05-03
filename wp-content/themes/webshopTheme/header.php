@@ -13,8 +13,10 @@
 	<div class="topnav">
 
 		<header id="header">
-        <div class="logo">
-            <span class="logoHeader"><a href="<?php echo get_template_directory_uri().'/index.html';?>"><img class="logo" src="<?php echo get_template_directory_uri().'/img/logo.png';?>"></a></span>
+        <div class="logoDiv">
+            <span class="logoContainer">
+                <a href="<?php echo get_template_directory_uri().'/index.html';?>"><img id="logoImg" src="<?php echo get_template_directory_uri().'/img/logo-1.png';?>"></a>
+            </span>
             <div class="col-sm-6 hidden-xs">
 						<?php 
                             get_search_form(); 
