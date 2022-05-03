@@ -52,13 +52,14 @@ Ni skall bygga ett tema med anpassad design som matchar ert företag och de prod
 
 - Ni skall ställa in så att e-handeln har moms enligt svenska regler. ✅ 
 
-- Kunden skall kunna registrera sig på webbplatsen och använda de mina sidor funktioner som  följer med WooCommerce. ✅ ❌
+- Kunden skall kunna registrera sig på webbplatsen och använda de mina sidor funktioner som  följer med WooCommerce. ✅ 
 
     De skall kunna byta lösenord
     De skall kunna se sina tidigare order
     De skall kunna redigera sin faktura- och leveransadress
 
 - VG Ni skall bygga ett eget plugin för leveransmetod ✅ ❌
+
 Det leveransalternativet skall vara frakt med drönare.
 Detta alternativ skall alltid kosta och det skall vara möjligt att ställa in pris i admin.
 På er e-handel skall ni ha ställt in 3 olika fraktklasser.
@@ -68,17 +69,20 @@ Vikten på produkterna i varukorgen avgör vilket pris leveransen får.
 Avståndet ifrån lager till köpare påverkar priset på leverans.
 
 - VG Ni skall bygga ett eget plugin för betalning ✅ ❌
+
 Betalningsmetoden skall vara betalning via faktura.
-▪ För att få lov att betala via faktura måste användaren mata in sitt personnummer. ▪ Personnummer skall matas in i ett fält i kassan. ▪ Om inget personnummer angivits skall ett felmeddelande presenteras när man försöker genomföra betalning.
-▪ Personnumret skall valideras med hjälp av Luhn-algoritmen.
-▪ Om personnumret inte stämmer kommer ett felmeddelande att presenteras
+    ▪ För att få lov att betala via faktura måste användaren mata in sitt personnummer. ▪ Personnummer skall matas in i ett fält i kassan. 
+    ▪ Om inget personnummer angivits skall ett felmeddelande presenteras när man försöker genomföra betalning.
+    ▪ Personnumret skall valideras med hjälp av Luhn-algoritmen.
+    ▪ Om personnumret inte stämmer kommer ett felmeddelande att presenteras
 
-- För att visa att er e-handel fungerar skall ni lägga test order. - Genomför minst 5 test-köp ✅ ❌
+- För att visa att er e-handel fungerar skall ni lägga test order. 
+    - Genomför minst 5 test-köp ✅ 
 
-- En manual ✅ ❌
+- En manual ✅ 
     En handbok som presenterar er e-handelslösning samt förklarar handhavande för webbredaktörer skall finnas med i inlämningen.
 
-- Övriga punkter ✅ ❌ 
+- Övriga punkter ✅ 
     • Webbplatsen som slutprojektet resulterar i skall ha en design som fungerar hela vägen ifrån desktop till mobil, inklusive mellanlägen.
     • Webbplatsen skall utnyttja cache för att ladda sidor snabbt. • Frontend för webbplatsen skall vara optimerad för att ladda snabbt. Planera in ett tillfälle för att utföra tester och optimering. • Bilder skall använda sig av tumnaglar i lagom storlek, så att inte onödigt tunga bilder laddas in.
 
