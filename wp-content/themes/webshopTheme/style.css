@@ -93,7 +93,7 @@ footer {
 
 .social {
     list-style: none;
-    margin-left: -40px;
+    margin-left: -50px;
 }
 
 #sidebar {
@@ -133,7 +133,7 @@ footer {
 .text {
     margin-top:10px; 
     margin-bottom: 20px;
-    text-align: center;
+    
 }
 
 .textVillkor {
@@ -219,6 +219,14 @@ footer {
 }
 
 .wc-block-grid {
+    margin: auto;
+}
+
+.wp-block-latest-posts__list {
+    text-align: center !important;
+}
+
+.wc-block-grid__products img {
     margin: auto;
 }
 

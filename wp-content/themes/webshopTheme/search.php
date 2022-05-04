@@ -40,19 +40,19 @@ get_header(); ?>
 
                     </div>
 
-                    <nav class="navigation">
-							
-						<?php the_posts_pagination( array( 'mid_size' => 2 ) ); ?>
-					</nav>
-
+                    
                 </div>
                 <hr style="width:70%;margin: auto;"> 
             </div>
         </div>
-
+        
     </section>
-
+    
     <?php } ?>
+    <nav class="navigation">
+            
+        <?php the_posts_pagination( array( 'mid_size' => 2 ) ); ?>
+    </nav>
 
 </main> 
 
