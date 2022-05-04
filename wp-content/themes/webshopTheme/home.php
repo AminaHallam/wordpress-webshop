@@ -10,7 +10,7 @@ get_header();
 						<div id="primary" class="col-xs-12 col-md-9">
 							<h1 class="blogRubrik">Bloggsida</h1>
                             <?php
-							/* loopar igenom alla posts */
+							
                             while( have_posts()){
 								
                                 the_post();
@@ -25,11 +25,11 @@ get_header();
 								<h2>
 									<a id="titlePost" href="
 									<?php  
-									/* url till inlägget */
+									
 									the_permalink_rss(); 
 									?>">
 									<?php 
-									/* Hämtar titeln i inlägget */
+									
 									the_title(); 
 									
 									?> 
@@ -38,7 +38,7 @@ get_header();
 								</h2>
 								<br>
 								<?php
-								/* visar texten */
+								
 								 the_excerpt();  
 								 ?>
 							</article>
@@ -58,6 +58,6 @@ get_header();
 			</div>
 		</section>
 		<?php
-		/* get footer */
+		
 		get_footer();
 		?>

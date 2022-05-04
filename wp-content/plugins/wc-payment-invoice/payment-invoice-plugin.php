@@ -91,12 +91,6 @@ function invoice_payment_init() {
                 // Mark as on-hold (we're awaiting the payment)
                 $order->update_status( 'on-hold', 'Awaiting of payment');
                         
-                // Reduce stock levels
-                $order->reduce_order_stock();
-                        
-                // Remove cart
-                WC()->cart->empty_cart();
-                        
                 // Return thankyou redirect
                 return array(
                     'result'    => 'success',
@@ -117,12 +111,15 @@ function invoice_payment_init() {
     }
             
 }
+
+
         
-        function add_invoice_payment_gateway( $gateways ) {
-            $gateways[] = 'WC_Invoice_Payment';
-            return $gateways;
-        }
-        add_filter( 'woocommerce_payment_gateways', 'add_invoice_payment_gateway' );
+add_filter( 'woocommerce_payment_gateways', 'add_invoice_payment_gateway' );
+
+    function add_invoice_payment_gateway( $gateways ) {
+        $gateways[] = 'WC_Invoice_Payment';
+        return $gateways;
+    }
         
             
 

@@ -3,8 +3,6 @@ Theme Name: wp-webshop Theme
 Author: AH, AB, HK
 Description: Webshop Theme
 Version: 1.0
-License: GNU General Public License v2 or later
-License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Text Domain: Webshop-Theme
 */
 
@@ -142,9 +140,6 @@ footer {
     padding: 70px;
 }
 
-/* .logoDiv {
-    width: 60%;
-} */
 
 .logoContainer {
     width: 100%;
@@ -204,16 +199,13 @@ footer {
 
     height: auto;
     
-    /* width: auto; */
-    
     max-width: 100%;
     
-    }
+}
 
 
 .wp-block-latest-posts__featured-image img {
     height: auto;
-    /* width: auto; */
     max-width: 100%;
     margin: auto;
 }
@@ -696,7 +688,6 @@ iframe {
 
 
 p {
-    /* overflow-wrap: break-word; */
     flex-wrap: wrap;
 }
 
