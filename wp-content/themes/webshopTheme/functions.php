@@ -52,7 +52,7 @@ register_sidebar(
     [
         'name' => 'widget 3',
         'id' => 'widget-socialmedia',
-        'description' => 'widget för social media.'
+        'description' => 'widget för prenumeration.'
     ]
 );
 

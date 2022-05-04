@@ -1,6 +1,6 @@
 <?php
 get_header();
-/* hamta header */
+
 ?>
 		<section>
 				<div class="container">
@@ -14,33 +14,33 @@ get_header();
 								
                                 the_post();
                             ?>
-							<article class="blogDiv">
-								<h2>
-									<a id="titlePost" href="
-									<?php  
-									
-									the_permalink_rss(); 
-									?>">
+								<article class="blogDiv">
+									<h2>
+										<a id="titlePost" href="
+										<?php  
+										
+										the_permalink_rss(); 
+										?>">
+										<?php 
+										
+										the_title(); 
+										
+										?> 
+										</a>
+										
+									</h2>
+									<br>
+									<img src="
 									<?php 
 									
-									the_title(); 
+									the_post_thumbnail_url(); 
+									?>" alt="">
+									<br>
+									<?php
 									
-									?> 
-									</a>
-									
-								</h2>
-								<br>
-								<img src="
-								<?php 
-								
-								the_post_thumbnail_url(); 
-								?>" alt="">
-								<br>
-								<?php
-								
-								 the_content();  
-								 ?>
-							</article>
+									the_content();  
+									?>
+								</article>
                             <?php
                             }
                             ?>
@@ -48,8 +48,9 @@ get_header();
 						</div>
 					</div>
 				</div>
-			</section>
-            <?php
-			/* get footer */
-            get_footer();
-            ?>
+		</section>
+		
+<?php
+
+get_footer();
+?>
