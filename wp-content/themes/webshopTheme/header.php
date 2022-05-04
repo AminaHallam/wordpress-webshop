@@ -15,7 +15,7 @@
 		<header id="header">
         <div class="logoDiv">
             <span class="logoContainer">
-                <a href="<?php echo get_template_directory_uri().'/index.html';?>"><img id="logoImg" src="<?php echo get_template_directory_uri().'/img/logo-1.png';?>"></a>
+                <a href="<?php echo site_url('');?>"><img id="logoImg" src="<?php echo get_template_directory_uri().'/img/logo-1.png';?>"></a>
             </span>
             <div class="col-sm-6 hidden-xs">
 						<?php 
