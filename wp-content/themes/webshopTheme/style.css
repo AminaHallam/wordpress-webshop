@@ -1,6 +1,6 @@
 /*
 Theme Name: wp-webshop Theme
-Author: AH
+Author: AH, AB, HK
 Description: Webshop Theme
 Version: 1.0
 License: GNU General Public License v2 or later
@@ -176,7 +176,7 @@ footer {
     justify-self: center;
     justify-content: center;
     padding: 10px;
-    gap: 60px; 
+    gap: 50px; 
     list-style: none;
     
 }
