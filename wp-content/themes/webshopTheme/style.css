@@ -39,6 +39,12 @@ footer {
     
 }
 
+#paymentLogo {
+    width: 200px;
+    height: auto;
+    margin: auto; 
+}
+
 .woocommerce-product-gallery__trigger {
     background-color: white;
 }

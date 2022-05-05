@@ -38,6 +38,10 @@
                
                 
                 <div class="col-xs-12">
+
+						<div>
+						<img id="paymentLogo" src="<?php echo get_template_directory_uri().'/img/save-payment.png';?>">
+						</div>
                         <div class="copyright">
 						<p>Copyright &copy; BioBar, 2022</p>
 					</div>
